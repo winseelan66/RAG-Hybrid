@@ -39,7 +39,23 @@ TABLE_TERMS = {
     "list",
 }
 TROUBLESHOOTING_TERMS = {"not working", "error", "failure", "troubleshoot", "how to fix", "not connecting"}
-TEXT_TERMS = {"explain", "what", "how", "why", "tell"}
+TEXT_TERMS = {
+    "explain",
+    "what",
+    "how",
+    "why",
+    "when",
+    "where",
+    "tell",
+    "act",
+    "law",
+    "implemented",
+    "implementation",
+    "protected",
+    "protection",
+    "wildlife",
+    "schedule",
+}
 DOMAIN_TERMS = {
     "coolant",
     "machine",
@@ -55,6 +71,11 @@ DOMAIN_TERMS = {
     "peacocks",
     "country",
     "countries",
+    "wildlife",
+    "protection",
+    "act",
+    "schedule",
+    "india",
 }
 
 

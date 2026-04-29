@@ -33,8 +33,8 @@ def build_context(vector_results: list[SearchChunkResult], graph_results: list[G
     vector_sections = []
     for item in vector_results:
         metadata_lines = []
-        if item.content_type == "image" and item.metadata.get("asset_path"):
-            metadata_lines.append(f"Image Path: {item.metadata['asset_path']}")
+        if item.content_type == "image":
+            metadata_lines.append("Image is available and will be displayed by the application.")
         vector_sections.append(
             "\n".join(
                 [
@@ -107,6 +107,7 @@ def generate_answer(
                     f"{settings.openai.system_prompt} "
                     "When the retrieved context contains table rows and the user asks for a list, states, names, populations, or tabular data, "
                     "return the answer as a markdown table using the retrieved rows. "
+                    "When image evidence is retrieved, describe it briefly but do not include markdown image syntax or local file paths. "
                     f"Do not use outside knowledge. If the context does not contain an exact matching entity, id, or fact for the question, say: {FALLBACK_RESPONSE}."
                 ),
             },
@@ -161,6 +162,7 @@ def stream_answer(
                     f"{settings.openai.system_prompt} "
                     "When the retrieved context contains table rows and the user asks for a list, states, names, populations, or tabular data, "
                     "return the answer as a markdown table using the retrieved rows. "
+                    "When image evidence is retrieved, describe it briefly but do not include markdown image syntax or local file paths. "
                     f"Do not use outside knowledge. If the context does not contain an exact matching entity, id, or fact for the question, say: {FALLBACK_RESPONSE}."
                 ),
             },

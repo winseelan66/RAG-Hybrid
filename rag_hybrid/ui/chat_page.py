@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import pandas as pd
+import re
 import streamlit as st
 from uuid import UUID, uuid4
 
@@ -13,6 +14,7 @@ from rag_hybrid.llm import stream_answer
 logger = get_logger()
 settings = get_settings()
 VECTOR_STORE_OPTIONS = ["pgVector & neo4j", "Qdrant & neo4j"]
+LOCAL_IMAGE_MARKDOWN_PATTERN = re.compile(r"!\[[^\]]*]\([A-Za-z]:\\[^)]*\)")
 
 
 def _ensure_state() -> None:
@@ -197,14 +199,17 @@ def render_chat_page() -> None:
             answer_text = str(result["controlled_response"])
             st.write(answer_text)
         else:
-            answer_text = st.write_stream(
-                stream_answer(
-                    prompt,
-                    result["vector_results"],
-                    result["graph_results"],
-                    st.session_state.chat_messages,
+            answer_text = _strip_local_image_markdown(
+                "".join(
+                    stream_answer(
+                        prompt,
+                        result["vector_results"],
+                        result["graph_results"],
+                        st.session_state.chat_messages,
+                    )
                 )
             )
+            st.markdown(answer_text)
         if graph_rows:
             _render_table_evidence(graph_rows)
         if image_results:
@@ -240,3 +245,7 @@ def _render_table_evidence(graph_rows: list[dict[str, object]]) -> None:
         for item in graph_rows:
             st.markdown(f"**{item['source']} - {item['section']}**")
             _render_structured_rows(item["rows"])
+
+
+def _strip_local_image_markdown(text: str) -> str:
+    return LOCAL_IMAGE_MARKDOWN_PATTERN.sub("", text).strip()

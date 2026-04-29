@@ -7,7 +7,7 @@ from rag_hybrid.config import get_settings
 from rag_hybrid.embeddings import embed_text
 from rag_hybrid.graph import search_tables
 from rag_hybrid.models import RetrievalItem, RetrievalResult, SearchChunkResult
-from rag_hybrid.qdrant_store import search_collection
+from rag_hybrid.qdrant_store import search_collection, search_keyword_collection
 from rag_hybrid.query_classification import QueryType, classify_query
 from rag_hybrid.llm import FALLBACK_RESPONSE
 
@@ -17,13 +17,19 @@ logger = get_logger()
 class TextRetriever:
     def retrieve(self, query: str, sources: list[str] | None = None) -> list[RetrievalItem]:
         settings = get_settings()
-        results = search_collection(
+        vector_results = search_collection(
             settings.qdrant.text_collection,
             embed_text(query),
             settings.retrieval.vector_search_limit,
             sources,
         )
-        return [_to_retrieval_item(item) for item in results]
+        keyword_results = search_keyword_collection(
+            settings.qdrant.text_collection,
+            query,
+            settings.retrieval.vector_search_limit,
+            sources,
+        )
+        return [_to_retrieval_item(item) for item in _merge_chunk_results(keyword_results + vector_results)]
 
 
 class ImageRetriever:
@@ -125,6 +131,18 @@ def _to_retrieval_item(item: SearchChunkResult) -> RetrievalItem:
         text=item.content,
         metadata=item.metadata,
     )
+
+
+def _merge_chunk_results(results: list[SearchChunkResult]) -> list[SearchChunkResult]:
+    merged: list[SearchChunkResult] = []
+    seen: set[tuple[str, int, str]] = set()
+    for item in results:
+        key = (str(item.document_id), item.chunk_id, item.content_type)
+        if key in seen:
+            continue
+        seen.add(key)
+        merged.append(item)
+    return merged
 
 
 def _image_query_filters(query: str) -> tuple[str, str]:

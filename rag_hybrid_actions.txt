@@ -4361,3 +4361,2162 @@ neo4j.exceptions.ClientError: {neo4j_code: Neo.ClientError.Database.DatabaseNotF
 2026-04-29 12:48:56,061 | INFO | Qdrant connection validated successfully.
 2026-04-29 12:48:56,063 | INFO | Page selected: Chat
 2026-04-29 12:48:56,063 | INFO | Conversation Chat page rendered.
+2026-04-29 13:50:00,113 | INFO | Application page load started.
+2026-04-29 13:50:00,787 | INFO | Initializing pgVector schema.
+2026-04-29 13:50:00,852 | INFO | pgVector schema initialization completed.
+2026-04-29 13:50:00,853 | INFO | pgVector connection validated successfully.
+2026-04-29 13:50:00,871 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:50:00,873 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:50:00,889 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:50:00,891 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:50:00,904 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:50:00,906 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:50:00,912 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:50:00,913 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:50:00,916 | INFO | Page selected: Document Embed
+2026-04-29 13:50:00,916 | INFO | Upload Files page rendered.
+2026-04-29 13:50:00,920 | INFO | No files selected on Upload Files page.
+2026-04-29 13:51:15,501 | INFO | Application page load started.
+2026-04-29 13:51:15,503 | INFO | Initializing pgVector schema.
+2026-04-29 13:51:15,530 | INFO | pgVector schema initialization completed.
+2026-04-29 13:51:15,531 | INFO | pgVector connection validated successfully.
+2026-04-29 13:51:15,545 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:51:15,547 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:51:15,553 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:51:15,555 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:51:15,564 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:51:15,565 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:51:15,571 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:51:15,571 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:51:15,573 | INFO | Page selected: Chat
+2026-04-29 13:51:15,573 | INFO | Conversation Chat page rendered.
+2026-04-29 13:52:10,862 | INFO | Application page load started.
+2026-04-29 13:52:10,864 | INFO | Initializing pgVector schema.
+2026-04-29 13:52:10,896 | INFO | pgVector schema initialization completed.
+2026-04-29 13:52:10,897 | INFO | pgVector connection validated successfully.
+2026-04-29 13:52:10,912 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:52:10,913 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:52:10,919 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:52:10,921 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:52:10,928 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:52:10,930 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:52:10,937 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:52:10,939 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:52:10,940 | INFO | Page selected: Chat
+2026-04-29 13:52:10,940 | INFO | Conversation Chat page rendered.
+2026-04-29 13:52:10,944 | INFO | User submitted chat prompt.
+2026-04-29 13:52:10,951 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 13:52:10,957 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 13:52:10,961 | INFO | Running keyword search on pgVector chunks with 16 token(s).
+2026-04-29 13:52:10,973 | INFO | Running Neo4j table search with 16 token(s).
+2026-04-29 13:52:11,006 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 13:52:11,008 | INFO | Keyword search returned 2 row(s).
+2026-04-29 13:52:11,009 | INFO | pgVector similarity search returned 2 row(s).
+2026-04-29 13:52:11,010 | INFO | Conversation retrieval completed with 2 vector result(s) and 0 graph result(s).
+2026-04-29 13:52:11,507 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 13:52:16,753 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 13:52:54,216 | INFO | Application page load started.
+2026-04-29 13:52:54,218 | INFO | Initializing pgVector schema.
+2026-04-29 13:52:54,242 | INFO | pgVector schema initialization completed.
+2026-04-29 13:52:54,244 | INFO | pgVector connection validated successfully.
+2026-04-29 13:52:54,257 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:52:54,261 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:52:54,270 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:52:54,273 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:52:54,283 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:52:54,284 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:52:54,292 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:52:54,294 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:52:54,295 | INFO | Page selected: Chat
+2026-04-29 13:52:54,296 | INFO | Conversation Chat page rendered.
+2026-04-29 13:52:54,309 | INFO | User submitted chat prompt.
+2026-04-29 13:52:54,317 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 13:52:54,325 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 13:52:54,335 | INFO | Running keyword search on pgVector chunks with 10 token(s).
+2026-04-29 13:52:54,348 | INFO | Running Neo4j table search with 10 token(s).
+2026-04-29 13:52:54,370 | INFO | pgVector similarity search returned 2 row(s).
+2026-04-29 13:52:54,373 | INFO | Neo4j table search returned 4 row(s).
+2026-04-29 13:52:54,380 | INFO | Keyword search returned 2 row(s).
+2026-04-29 13:52:54,384 | INFO | Conversation retrieval completed with 2 vector result(s) and 1 graph result(s).
+2026-04-29 13:52:54,767 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 13:52:56,652 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 13:53:35,111 | INFO | Application page load started.
+2026-04-29 13:53:35,114 | INFO | Initializing pgVector schema.
+2026-04-29 13:53:35,138 | INFO | pgVector schema initialization completed.
+2026-04-29 13:53:35,139 | INFO | pgVector connection validated successfully.
+2026-04-29 13:53:35,151 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:53:35,152 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:53:35,159 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:53:35,161 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:53:35,178 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:53:35,180 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:53:35,186 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:53:35,187 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:53:35,188 | INFO | Page selected: Chat
+2026-04-29 13:53:35,188 | INFO | Conversation Chat page rendered.
+2026-04-29 13:53:35,211 | INFO | Saving interaction feedback for message_id=ed1636ea-9799-47a2-b703-ba83fa720376.
+2026-04-29 13:53:35,250 | INFO | Feedback saved for message_id=ed1636ea-9799-47a2-b703-ba83fa720376.
+2026-04-29 13:53:35,344 | INFO | Application page load started.
+2026-04-29 13:53:35,346 | INFO | Initializing pgVector schema.
+2026-04-29 13:53:35,377 | INFO | pgVector schema initialization completed.
+2026-04-29 13:53:35,378 | INFO | pgVector connection validated successfully.
+2026-04-29 13:53:35,393 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:53:35,394 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:53:35,399 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:53:35,401 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:53:35,406 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:53:35,407 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:53:35,413 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:53:35,415 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:53:35,416 | INFO | Page selected: Chat
+2026-04-29 13:53:35,416 | INFO | Conversation Chat page rendered.
+2026-04-29 13:53:51,612 | INFO | Application page load started.
+2026-04-29 13:53:51,614 | INFO | Initializing pgVector schema.
+2026-04-29 13:53:51,643 | INFO | pgVector schema initialization completed.
+2026-04-29 13:53:51,645 | INFO | pgVector connection validated successfully.
+2026-04-29 13:53:51,659 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:53:51,661 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:53:51,665 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:53:51,666 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:53:51,671 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:53:51,672 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:53:51,676 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:53:51,677 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:53:51,678 | INFO | Page selected: Chat
+2026-04-29 13:53:51,678 | INFO | Conversation Chat page rendered.
+2026-04-29 13:53:51,682 | INFO | User submitted chat prompt.
+2026-04-29 13:53:51,686 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 13:53:51,690 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 13:53:51,693 | INFO | Running keyword search on pgVector chunks with 14 token(s).
+2026-04-29 13:53:51,699 | INFO | Running Neo4j table search with 14 token(s).
+2026-04-29 13:53:51,717 | INFO | Neo4j table search returned 4 row(s).
+2026-04-29 13:53:51,721 | INFO | pgVector similarity search returned 2 row(s).
+2026-04-29 13:53:51,721 | INFO | Keyword search returned 2 row(s).
+2026-04-29 13:53:51,724 | INFO | Conversation retrieval completed with 2 vector result(s) and 2 graph result(s).
+2026-04-29 13:53:52,017 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 13:53:53,968 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 13:54:53,933 | INFO | Application page load started.
+2026-04-29 13:54:53,934 | INFO | Initializing pgVector schema.
+2026-04-29 13:54:53,958 | INFO | pgVector schema initialization completed.
+2026-04-29 13:54:53,959 | INFO | pgVector connection validated successfully.
+2026-04-29 13:54:53,983 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:54:53,984 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:54:53,999 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:54:54,002 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:54:54,007 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:54:54,008 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:54:54,012 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:54:54,013 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:54:54,015 | INFO | Page selected: Chat
+2026-04-29 13:54:54,015 | INFO | Conversation Chat page rendered.
+2026-04-29 13:54:54,033 | INFO | User submitted chat prompt.
+2026-04-29 13:54:54,039 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 13:54:54,043 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 13:54:54,046 | INFO | Running keyword search on pgVector chunks with 10 token(s).
+2026-04-29 13:54:54,056 | INFO | Running Neo4j table search with 10 token(s).
+2026-04-29 13:54:54,070 | INFO | Neo4j table search returned 0 row(s).
+2026-04-29 13:54:54,077 | INFO | pgVector similarity search returned 2 row(s).
+2026-04-29 13:54:54,078 | INFO | Keyword search returned 2 row(s).
+2026-04-29 13:54:54,079 | INFO | Conversation retrieval completed with 2 vector result(s) and 0 graph result(s).
+2026-04-29 13:54:54,407 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 13:54:55,856 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 13:55:17,401 | INFO | Application page load started.
+2026-04-29 13:55:17,403 | INFO | Initializing pgVector schema.
+2026-04-29 13:55:17,437 | INFO | pgVector schema initialization completed.
+2026-04-29 13:55:17,438 | INFO | pgVector connection validated successfully.
+2026-04-29 13:55:17,452 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:55:17,454 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:55:17,460 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:55:17,462 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:55:17,468 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:55:17,469 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:55:17,484 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:55:17,485 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:55:17,487 | INFO | Page selected: Document Embed
+2026-04-29 13:55:17,488 | INFO | Upload Files page rendered.
+2026-04-29 13:55:17,493 | INFO | No files selected on Upload Files page.
+2026-04-29 13:56:13,194 | INFO | Application page load started.
+2026-04-29 13:56:13,196 | INFO | Initializing pgVector schema.
+2026-04-29 13:56:13,224 | INFO | pgVector schema initialization completed.
+2026-04-29 13:56:13,225 | INFO | pgVector connection validated successfully.
+2026-04-29 13:56:13,258 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:56:13,260 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:56:13,274 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:56:13,277 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:56:13,282 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:56:13,284 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:56:13,299 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:56:13,301 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:56:13,303 | INFO | Page selected: Document Embed
+2026-04-29 13:56:13,303 | INFO | Upload Files page rendered.
+2026-04-29 13:56:16,516 | INFO | Application page load started.
+2026-04-29 13:56:16,519 | INFO | Initializing pgVector schema.
+2026-04-29 13:56:16,554 | INFO | pgVector schema initialization completed.
+2026-04-29 13:56:16,555 | INFO | pgVector connection validated successfully.
+2026-04-29 13:56:16,566 | INFO | Neo4j connection validated successfully.
+2026-04-29 13:56:16,569 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 13:56:16,574 | INFO | Qdrant connectivity check completed.
+2026-04-29 13:56:16,577 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 13:56:16,581 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 13:56:16,582 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 13:56:16,588 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 13:56:16,589 | INFO | Qdrant connection validated successfully.
+2026-04-29 13:56:16,591 | INFO | Page selected: Document Embed
+2026-04-29 13:56:16,591 | INFO | Upload Files page rendered.
+2026-04-29 13:56:16,597 | INFO | Extract and Store triggered for 1 uploaded file(s) using pgVector & neo4j.
+2026-04-29 13:56:16,598 | INFO | Processing upload: peacock text - table.docx
+2026-04-29 13:56:16,598 | INFO | Starting ingestion for file 'peacock text - table.docx' with document_id=312550e6-bb8b-4f42-8edc-85aa2d49292a using pgVector & neo4j.
+2026-04-29 13:56:16,598 | INFO | Dispatching extraction for file 'peacock text - table.docx' with extension '.docx'.
+2026-04-29 13:56:16,598 | INFO | Starting DOCX extraction for 'peacock text - table.docx'.
+2026-04-29 13:56:16,647 | INFO | Completed DOCX extraction for 'peacock text - table.docx': 4 chunks, 2 tables.
+2026-04-29 13:56:16,647 | INFO | Extraction completed for file 'peacock text - table.docx': 4 chunks, 2 tables.
+2026-04-29 13:56:16,652 | INFO | Generated 2 embeddings for file 'peacock text - table.docx'.
+2026-04-29 13:56:16,653 | INFO | Preparing 2 chunk record(s) for document_id=312550e6-bb8b-4f42-8edc-85aa2d49292a.
+2026-04-29 13:56:16,684 | INFO | Inserted 2 chunk record(s) for document_id=312550e6-bb8b-4f42-8edc-85aa2d49292a.
+2026-04-29 13:56:16,700 | INFO | Writing 2 extracted tables to Neo4j.
+2026-04-29 13:56:17,253 | INFO | Stored 2 tables in Neo4j.
+2026-04-29 13:56:17,253 | INFO | Ingestion finished for file 'peacock text - table.docx': vector_store=pgVector & neo4j, stored_chunks=2, stored_tables=2.
+2026-04-29 13:56:17,254 | INFO | Upload batch processing completed.
+2026-04-29 14:32:52,255 | INFO | Application page load started.
+2026-04-29 14:32:52,259 | INFO | Initializing pgVector schema.
+2026-04-29 14:32:52,289 | INFO | pgVector schema initialization completed.
+2026-04-29 14:32:52,290 | INFO | pgVector connection validated successfully.
+2026-04-29 14:32:52,307 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:32:52,309 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:32:52,321 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:32:52,323 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:32:52,337 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:32:52,339 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:32:52,361 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:32:52,362 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:32:52,363 | INFO | Page selected: Document Embed
+2026-04-29 14:32:52,364 | INFO | Upload Files page rendered.
+2026-04-29 14:32:52,368 | INFO | No files selected on Upload Files page.
+2026-04-29 14:33:03,726 | INFO | Application page load started.
+2026-04-29 14:33:03,730 | INFO | Initializing pgVector schema.
+2026-04-29 14:33:03,755 | INFO | pgVector schema initialization completed.
+2026-04-29 14:33:03,757 | INFO | pgVector connection validated successfully.
+2026-04-29 14:33:03,770 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:33:03,771 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:33:03,793 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:33:03,795 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:33:03,829 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:33:03,829 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:33:03,836 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:33:03,837 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:33:03,839 | INFO | Page selected: Document Embed
+2026-04-29 14:33:03,839 | INFO | Upload Files page rendered.
+2026-04-29 14:33:05,486 | INFO | Application page load started.
+2026-04-29 14:33:05,489 | INFO | Initializing pgVector schema.
+2026-04-29 14:33:05,522 | INFO | pgVector schema initialization completed.
+2026-04-29 14:33:05,524 | INFO | pgVector connection validated successfully.
+2026-04-29 14:33:05,534 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:33:05,535 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:33:05,540 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:33:05,542 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:33:05,567 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:33:05,568 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:33:05,576 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:33:05,577 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:33:05,578 | INFO | Page selected: Document Embed
+2026-04-29 14:33:05,578 | INFO | Upload Files page rendered.
+2026-04-29 14:33:05,583 | INFO | Extract and Store triggered for 1 uploaded file(s) using pgVector & neo4j.
+2026-04-29 14:33:05,584 | INFO | Processing upload: peacock text - 2 table - 1 image.docx
+2026-04-29 14:33:05,584 | INFO | Starting ingestion for file 'peacock text - 2 table - 1 image.docx' with document_id=636606b8-3c04-4c33-9cb4-04c25b11bddd using pgVector & neo4j.
+2026-04-29 14:33:05,584 | INFO | Dispatching extraction for file 'peacock text - 2 table - 1 image.docx' with extension '.docx'.
+2026-04-29 14:33:05,585 | INFO | Starting DOCX extraction for 'peacock text - 2 table - 1 image.docx'.
+2026-04-29 14:33:05,617 | INFO | Completed DOCX extraction for 'peacock text - 2 table - 1 image.docx': 5 chunks, 2 tables.
+2026-04-29 14:33:05,618 | INFO | Extraction completed for file 'peacock text - 2 table - 1 image.docx': 5 chunks, 2 tables.
+2026-04-29 14:33:05,622 | INFO | Generated 3 embeddings for file 'peacock text - 2 table - 1 image.docx'.
+2026-04-29 14:33:05,622 | INFO | Preparing 3 chunk record(s) for document_id=636606b8-3c04-4c33-9cb4-04c25b11bddd.
+2026-04-29 14:33:05,669 | INFO | Inserted 3 chunk record(s) for document_id=636606b8-3c04-4c33-9cb4-04c25b11bddd.
+2026-04-29 14:33:05,688 | INFO | Writing 2 extracted tables to Neo4j.
+2026-04-29 14:33:05,982 | INFO | Stored 2 tables in Neo4j.
+2026-04-29 14:33:05,983 | INFO | Ingestion finished for file 'peacock text - 2 table - 1 image.docx': vector_store=pgVector & neo4j, stored_chunks=3, stored_tables=2.
+2026-04-29 14:33:05,983 | INFO | Upload batch processing completed.
+2026-04-29 14:33:12,088 | INFO | Application page load started.
+2026-04-29 14:33:12,091 | INFO | Initializing pgVector schema.
+2026-04-29 14:33:12,117 | INFO | pgVector schema initialization completed.
+2026-04-29 14:33:12,118 | INFO | pgVector connection validated successfully.
+2026-04-29 14:33:12,137 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:33:12,139 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:33:12,145 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:33:12,147 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:33:12,154 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:33:12,155 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:33:12,162 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:33:12,163 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:33:12,164 | INFO | Page selected: Chat
+2026-04-29 14:33:12,165 | INFO | Conversation Chat page rendered.
+2026-04-29 14:33:21,242 | INFO | Application page load started.
+2026-04-29 14:33:21,243 | INFO | Initializing pgVector schema.
+2026-04-29 14:33:21,298 | INFO | pgVector schema initialization completed.
+2026-04-29 14:33:21,299 | INFO | pgVector connection validated successfully.
+2026-04-29 14:33:21,309 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:33:21,311 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:33:21,315 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:33:21,317 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:33:21,324 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:33:21,325 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:33:21,331 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:33:21,331 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:33:21,332 | INFO | Page selected: Chat
+2026-04-29 14:33:21,333 | INFO | Conversation Chat page rendered.
+2026-04-29 14:33:21,336 | INFO | User submitted chat prompt.
+2026-04-29 14:33:21,341 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:33:21,344 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:33:21,347 | INFO | Running keyword search on pgVector chunks with 8 token(s).
+2026-04-29 14:33:21,355 | INFO | Running Neo4j table search with 8 token(s).
+2026-04-29 14:33:21,379 | INFO | pgVector similarity search returned 3 row(s).
+2026-04-29 14:33:21,380 | INFO | Keyword search returned 3 row(s).
+2026-04-29 14:33:21,537 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 14:33:21,539 | INFO | Conversation retrieval completed with 3 vector result(s) and 1 graph result(s).
+2026-04-29 14:33:21,861 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 14:33:26,529 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 14:35:01,802 | INFO | Application page load started.
+2026-04-29 14:35:01,805 | INFO | Initializing pgVector schema.
+2026-04-29 14:35:01,847 | INFO | pgVector schema initialization completed.
+2026-04-29 14:35:01,848 | INFO | pgVector connection validated successfully.
+2026-04-29 14:35:01,859 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:35:01,861 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:35:01,864 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:35:01,866 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:35:01,889 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:35:01,890 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:35:01,895 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:35:01,896 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:35:01,898 | INFO | Page selected: Chat
+2026-04-29 14:35:01,898 | INFO | Conversation Chat page rendered.
+2026-04-29 14:35:01,973 | INFO | Saving interaction feedback for message_id=a650c4ab-37a8-4d3f-a9ce-0b4117219b10.
+2026-04-29 14:35:02,003 | INFO | Feedback saved for message_id=a650c4ab-37a8-4d3f-a9ce-0b4117219b10.
+2026-04-29 14:35:02,117 | INFO | Application page load started.
+2026-04-29 14:35:02,119 | INFO | Initializing pgVector schema.
+2026-04-29 14:35:02,141 | INFO | pgVector schema initialization completed.
+2026-04-29 14:35:02,143 | INFO | pgVector connection validated successfully.
+2026-04-29 14:35:02,174 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:35:02,175 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:35:02,181 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:35:02,184 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:35:02,190 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:35:02,191 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:35:02,198 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:35:02,199 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:35:02,200 | INFO | Page selected: Chat
+2026-04-29 14:35:02,201 | INFO | Conversation Chat page rendered.
+2026-04-29 14:35:28,977 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:35:28,978 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:35:28,978 | INFO | Running keyword search on pgVector chunks with 8 token(s).
+2026-04-29 14:35:28,982 | INFO | Running Neo4j table search with 8 token(s).
+2026-04-29 14:35:29,027 | INFO | Keyword search returned 3 row(s).
+2026-04-29 14:35:29,028 | INFO | pgVector similarity search returned 3 row(s).
+2026-04-29 14:35:29,138 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 14:35:29,138 | INFO | Conversation retrieval completed with 3 vector result(s) and 1 graph result(s).
+2026-04-29 14:36:13,587 | INFO | Query classified as mixed_query.
+2026-04-29 14:36:13,587 | INFO | Selected query type 'mixed_query'.
+2026-04-29 14:36:13,590 | INFO | Query classified as table_lookup.
+2026-04-29 14:36:13,590 | INFO | Selected query type 'table_lookup'.
+2026-04-29 14:36:13,590 | INFO | Query classified as table_lookup.
+2026-04-29 14:36:13,591 | INFO | Query classified as table_lookup.
+2026-04-29 14:36:13,591 | INFO | Selected query type 'table_lookup'.
+2026-04-29 14:36:13,591 | INFO | Query classified as text_qa.
+2026-04-29 14:36:13,592 | INFO | Query classified as text_qa.
+2026-04-29 14:36:13,592 | INFO | Selected query type 'text_qa'.
+2026-04-29 14:36:13,594 | INFO | Query classified as troubleshooting.
+2026-04-29 14:36:13,594 | INFO | Selected query type 'troubleshooting'.
+2026-04-29 14:36:13,686 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:36:13,688 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:36:13,688 | INFO | Running keyword search on pgVector chunks with 8 token(s).
+2026-04-29 14:36:13,692 | INFO | Running Neo4j table search with 8 token(s).
+2026-04-29 14:36:13,705 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 14:36:13,720 | INFO | pgVector similarity search returned 3 row(s).
+2026-04-29 14:36:13,720 | INFO | Keyword search returned 3 row(s).
+2026-04-29 14:36:13,721 | INFO | Conversation retrieval completed with 3 vector result(s) and 1 graph result(s).
+2026-04-29 14:36:45,926 | INFO | Application page load started.
+2026-04-29 14:36:46,557 | INFO | Initializing pgVector schema.
+2026-04-29 14:36:46,587 | INFO | pgVector schema initialization completed.
+2026-04-29 14:36:46,588 | INFO | pgVector connection validated successfully.
+2026-04-29 14:36:46,604 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:36:46,605 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:36:46,612 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:36:46,614 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:36:46,635 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:36:46,636 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:36:46,640 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:36:46,642 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:36:46,644 | INFO | Page selected: Document Embed
+2026-04-29 14:36:46,644 | INFO | Upload Files page rendered.
+2026-04-29 14:36:46,648 | INFO | No files selected on Upload Files page.
+2026-04-29 14:36:58,833 | INFO | Application page load started.
+2026-04-29 14:36:58,834 | INFO | Initializing pgVector schema.
+2026-04-29 14:36:58,880 | INFO | pgVector schema initialization completed.
+2026-04-29 14:36:58,881 | INFO | pgVector connection validated successfully.
+2026-04-29 14:36:58,922 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:36:58,925 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:36:58,944 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:36:58,946 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:36:58,973 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:36:58,974 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:36:58,980 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:36:58,980 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:36:58,982 | INFO | Page selected: Chat
+2026-04-29 14:36:58,982 | INFO | Conversation Chat page rendered.
+2026-04-29 14:37:01,394 | INFO | Application page load started.
+2026-04-29 14:37:01,396 | INFO | Initializing pgVector schema.
+2026-04-29 14:37:01,435 | INFO | pgVector schema initialization completed.
+2026-04-29 14:37:01,436 | INFO | pgVector connection validated successfully.
+2026-04-29 14:37:01,457 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:37:01,458 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:37:01,483 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:37:01,485 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:37:01,489 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:37:01,491 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:37:01,514 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:37:01,514 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:37:01,516 | INFO | Page selected: Chat
+2026-04-29 14:37:01,516 | INFO | Conversation Chat page rendered.
+2026-04-29 14:37:01,520 | INFO | User submitted chat prompt.
+2026-04-29 14:37:01,525 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:37:01,530 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:37:01,536 | INFO | Running keyword search on pgVector chunks with 8 token(s).
+2026-04-29 14:37:01,541 | INFO | Running Neo4j table search with 8 token(s).
+2026-04-29 14:37:01,554 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 14:37:01,563 | INFO | pgVector similarity search returned 3 row(s).
+2026-04-29 14:37:01,564 | INFO | Keyword search returned 3 row(s).
+2026-04-29 14:37:01,568 | INFO | Conversation retrieval completed with 3 vector result(s) and 1 graph result(s).
+2026-04-29 14:37:01,930 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 14:37:06,352 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 14:40:00,262 | INFO | Application page load started.
+2026-04-29 14:40:00,264 | INFO | Initializing pgVector schema.
+2026-04-29 14:40:00,305 | INFO | pgVector schema initialization completed.
+2026-04-29 14:40:00,306 | INFO | pgVector connection validated successfully.
+2026-04-29 14:40:00,349 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:40:00,351 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:40:00,357 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:40:00,359 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:40:00,365 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:40:00,366 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:40:00,371 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:40:00,373 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:40:00,375 | INFO | Page selected: Document Embed
+2026-04-29 14:40:00,375 | INFO | Upload Files page rendered.
+2026-04-29 14:40:00,381 | INFO | No files selected on Upload Files page.
+2026-04-29 14:40:00,905 | INFO | Application page load started.
+2026-04-29 14:40:00,908 | INFO | Initializing pgVector schema.
+2026-04-29 14:40:00,931 | INFO | pgVector schema initialization completed.
+2026-04-29 14:40:00,932 | INFO | pgVector connection validated successfully.
+2026-04-29 14:40:00,956 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:40:00,958 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:40:00,978 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:40:00,980 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:40:00,985 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:40:00,987 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:40:01,009 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:40:01,010 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:40:01,012 | INFO | Page selected: Document Embed
+2026-04-29 14:40:01,012 | INFO | Upload Files page rendered.
+2026-04-29 14:40:01,017 | INFO | No files selected on Upload Files page.
+2026-04-29 14:40:08,063 | INFO | Application page load started.
+2026-04-29 14:40:08,066 | INFO | Initializing pgVector schema.
+2026-04-29 14:40:08,091 | INFO | pgVector schema initialization completed.
+2026-04-29 14:40:08,092 | INFO | pgVector connection validated successfully.
+2026-04-29 14:40:08,118 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:40:08,120 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:40:08,144 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:40:08,146 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:40:08,153 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:40:08,154 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:40:08,158 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:40:08,158 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:40:08,160 | INFO | Page selected: Document Embed
+2026-04-29 14:40:08,160 | INFO | Upload Files page rendered.
+2026-04-29 14:40:11,123 | INFO | Application page load started.
+2026-04-29 14:40:11,125 | INFO | Initializing pgVector schema.
+2026-04-29 14:40:11,145 | INFO | pgVector schema initialization completed.
+2026-04-29 14:40:11,146 | INFO | pgVector connection validated successfully.
+2026-04-29 14:40:11,157 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:40:11,159 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:40:11,162 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:40:11,164 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:40:11,169 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:40:11,170 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:40:11,173 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:40:11,175 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:40:11,176 | INFO | Page selected: Document Embed
+2026-04-29 14:40:11,176 | INFO | Upload Files page rendered.
+2026-04-29 14:40:11,180 | INFO | Extract and Store triggered for 1 uploaded file(s) using pgVector & neo4j.
+2026-04-29 14:40:11,181 | INFO | Processing upload: peacock text - 2 table - 2 image.docx
+2026-04-29 14:40:11,181 | INFO | Starting ingestion for file 'peacock text - 2 table - 2 image.docx' with document_id=8e4e1887-78d0-4e45-9cbf-d59a2cd3212d using pgVector & neo4j.
+2026-04-29 14:40:11,181 | INFO | Dispatching extraction for file 'peacock text - 2 table - 2 image.docx' with extension '.docx'.
+2026-04-29 14:40:11,181 | INFO | Starting DOCX extraction for 'peacock text - 2 table - 2 image.docx'.
+2026-04-29 14:40:11,216 | INFO | Completed DOCX extraction for 'peacock text - 2 table - 2 image.docx': 6 chunks, 2 tables.
+2026-04-29 14:40:11,217 | INFO | Extraction completed for file 'peacock text - 2 table - 2 image.docx': 6 chunks, 2 tables.
+2026-04-29 14:40:11,226 | INFO | Generated 4 embeddings for file 'peacock text - 2 table - 2 image.docx'.
+2026-04-29 14:40:11,227 | INFO | Preparing 4 chunk record(s) for document_id=8e4e1887-78d0-4e45-9cbf-d59a2cd3212d.
+2026-04-29 14:40:11,289 | INFO | Inserted 4 chunk record(s) for document_id=8e4e1887-78d0-4e45-9cbf-d59a2cd3212d.
+2026-04-29 14:40:11,312 | INFO | Writing 2 extracted tables to Neo4j.
+2026-04-29 14:40:11,544 | INFO | Stored 2 tables in Neo4j.
+2026-04-29 14:40:11,544 | INFO | Ingestion finished for file 'peacock text - 2 table - 2 image.docx': vector_store=pgVector & neo4j, stored_chunks=4, stored_tables=2.
+2026-04-29 14:40:11,544 | INFO | Upload batch processing completed.
+2026-04-29 14:40:22,146 | INFO | Application page load started.
+2026-04-29 14:40:22,150 | INFO | Initializing pgVector schema.
+2026-04-29 14:40:22,191 | INFO | pgVector schema initialization completed.
+2026-04-29 14:40:22,193 | INFO | pgVector connection validated successfully.
+2026-04-29 14:40:22,210 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:40:22,211 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:40:22,238 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:40:22,239 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:40:22,243 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:40:22,244 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:40:22,247 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:40:22,248 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:40:22,250 | INFO | Page selected: Chat
+2026-04-29 14:40:22,250 | INFO | Conversation Chat page rendered.
+2026-04-29 14:40:46,434 | INFO | Application page load started.
+2026-04-29 14:40:46,436 | INFO | Initializing pgVector schema.
+2026-04-29 14:40:46,463 | INFO | pgVector schema initialization completed.
+2026-04-29 14:40:46,465 | INFO | pgVector connection validated successfully.
+2026-04-29 14:40:46,475 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:40:46,477 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:40:46,482 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:40:46,484 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:40:46,488 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:40:46,489 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:40:46,493 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:40:46,494 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:40:46,496 | INFO | Page selected: Chat
+2026-04-29 14:40:46,496 | INFO | Conversation Chat page rendered.
+2026-04-29 14:40:46,500 | INFO | User submitted chat prompt.
+2026-04-29 14:40:46,504 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:40:46,507 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:40:46,511 | INFO | Running keyword search on pgVector chunks with 8 token(s).
+2026-04-29 14:40:46,518 | INFO | Running Neo4j table search with 8 token(s).
+2026-04-29 14:40:46,528 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 14:40:46,541 | INFO | pgVector similarity search returned 4 row(s).
+2026-04-29 14:40:46,541 | INFO | Keyword search returned 4 row(s).
+2026-04-29 14:40:46,543 | INFO | Conversation retrieval completed with 3 vector result(s) and 1 graph result(s).
+2026-04-29 14:40:46,826 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 14:40:49,134 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 14:41:00,969 | INFO | Application page load started.
+2026-04-29 14:41:00,971 | INFO | Initializing pgVector schema.
+2026-04-29 14:41:01,003 | INFO | pgVector schema initialization completed.
+2026-04-29 14:41:01,004 | INFO | pgVector connection validated successfully.
+2026-04-29 14:41:01,017 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:41:01,018 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:41:01,023 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:41:01,025 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:41:01,030 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:41:01,030 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:41:01,034 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:41:01,035 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:41:01,037 | INFO | Page selected: Chat
+2026-04-29 14:41:01,037 | INFO | Conversation Chat page rendered.
+2026-04-29 14:41:01,102 | INFO | User submitted chat prompt.
+2026-04-29 14:41:01,107 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:41:01,111 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:41:01,115 | INFO | Running keyword search on pgVector chunks with 6 token(s).
+2026-04-29 14:41:01,124 | INFO | Running Neo4j table search with 6 token(s).
+2026-04-29 14:41:01,136 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 14:41:01,145 | INFO | Keyword search returned 3 row(s).
+2026-04-29 14:41:01,145 | INFO | pgVector similarity search returned 4 row(s).
+2026-04-29 14:41:01,147 | INFO | Conversation retrieval completed with 3 vector result(s) and 0 graph result(s).
+2026-04-29 14:41:01,447 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 14:41:03,111 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 14:41:15,565 | INFO | Application page load started.
+2026-04-29 14:41:15,568 | INFO | Initializing pgVector schema.
+2026-04-29 14:41:15,610 | INFO | pgVector schema initialization completed.
+2026-04-29 14:41:15,612 | INFO | pgVector connection validated successfully.
+2026-04-29 14:41:15,623 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:41:15,625 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:41:15,651 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:41:15,653 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:41:15,682 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:41:15,683 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:41:15,687 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:41:15,687 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:41:15,689 | INFO | Page selected: Chat
+2026-04-29 14:41:15,689 | INFO | Conversation Chat page rendered.
+2026-04-29 14:41:15,866 | INFO | Saving interaction feedback for message_id=38a8e2cd-a063-493c-8841-9209fff9a767.
+2026-04-29 14:41:15,902 | INFO | Feedback saved for message_id=38a8e2cd-a063-493c-8841-9209fff9a767.
+2026-04-29 14:41:16,004 | INFO | Application page load started.
+2026-04-29 14:41:16,006 | INFO | Initializing pgVector schema.
+2026-04-29 14:41:16,029 | INFO | pgVector schema initialization completed.
+2026-04-29 14:41:16,030 | INFO | pgVector connection validated successfully.
+2026-04-29 14:41:16,040 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:41:16,041 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:41:16,046 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:41:16,047 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:41:16,052 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:41:16,053 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:41:16,057 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:41:16,057 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:41:16,059 | INFO | Page selected: Chat
+2026-04-29 14:41:16,060 | INFO | Conversation Chat page rendered.
+2026-04-29 14:41:36,711 | INFO | Application page load started.
+2026-04-29 14:41:36,713 | INFO | Initializing pgVector schema.
+2026-04-29 14:41:36,737 | INFO | pgVector schema initialization completed.
+2026-04-29 14:41:36,738 | INFO | pgVector connection validated successfully.
+2026-04-29 14:41:36,749 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:41:36,751 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:41:36,772 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:41:36,775 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:41:36,779 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:41:36,779 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:41:36,783 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:41:36,784 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:41:36,785 | INFO | Page selected: Chat
+2026-04-29 14:41:36,785 | INFO | Conversation Chat page rendered.
+2026-04-29 14:41:36,790 | INFO | User submitted chat prompt.
+2026-04-29 14:41:36,795 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:41:36,798 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:41:36,802 | INFO | Running keyword search on pgVector chunks with 12 token(s).
+2026-04-29 14:41:36,808 | INFO | Running Neo4j table search with 12 token(s).
+2026-04-29 14:41:36,827 | INFO | pgVector similarity search returned 4 row(s).
+2026-04-29 14:41:36,831 | INFO | Keyword search returned 4 row(s).
+2026-04-29 14:41:36,905 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 14:41:36,908 | INFO | Conversation retrieval completed with 4 vector result(s) and 1 graph result(s).
+2026-04-29 14:41:37,152 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 14:41:39,231 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 14:43:00,149 | INFO | Application page load started.
+2026-04-29 14:43:00,152 | INFO | Initializing pgVector schema.
+2026-04-29 14:43:00,177 | INFO | pgVector schema initialization completed.
+2026-04-29 14:43:00,178 | INFO | pgVector connection validated successfully.
+2026-04-29 14:43:00,199 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:43:00,201 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:43:00,206 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:43:00,208 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:43:00,213 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:43:00,215 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:43:00,221 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:43:00,222 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:43:00,223 | INFO | Page selected: Document Embed
+2026-04-29 14:43:00,223 | INFO | Upload Files page rendered.
+2026-04-29 14:43:00,226 | INFO | No files selected on Upload Files page.
+2026-04-29 14:43:09,962 | INFO | Application page load started.
+2026-04-29 14:43:09,964 | INFO | Initializing pgVector schema.
+2026-04-29 14:43:10,014 | INFO | pgVector schema initialization completed.
+2026-04-29 14:43:10,016 | INFO | pgVector connection validated successfully.
+2026-04-29 14:43:10,044 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:43:10,045 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:43:10,070 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:43:10,072 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:43:10,087 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:43:10,088 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:43:10,094 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:43:10,096 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:43:10,097 | INFO | Page selected: Document Embed
+2026-04-29 14:43:10,098 | INFO | Upload Files page rendered.
+2026-04-29 14:43:11,654 | INFO | Application page load started.
+2026-04-29 14:43:11,656 | INFO | Initializing pgVector schema.
+2026-04-29 14:43:11,683 | INFO | pgVector schema initialization completed.
+2026-04-29 14:43:11,684 | INFO | pgVector connection validated successfully.
+2026-04-29 14:43:11,694 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:43:11,696 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:43:11,699 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:43:11,701 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:43:11,705 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:43:11,705 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:43:11,709 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:43:11,710 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:43:11,711 | INFO | Page selected: Document Embed
+2026-04-29 14:43:11,711 | INFO | Upload Files page rendered.
+2026-04-29 14:43:11,716 | INFO | Extract and Store triggered for 1 uploaded file(s) using pgVector & neo4j.
+2026-04-29 14:43:11,716 | INFO | Processing upload: peacock text - 2 table - 2 image.docx
+2026-04-29 14:43:11,716 | INFO | Starting ingestion for file 'peacock text - 2 table - 2 image.docx' with document_id=0ce0f349-54cc-48b6-b6ef-bdfbbfce30a0 using pgVector & neo4j.
+2026-04-29 14:43:11,716 | INFO | Dispatching extraction for file 'peacock text - 2 table - 2 image.docx' with extension '.docx'.
+2026-04-29 14:43:11,717 | INFO | Starting DOCX extraction for 'peacock text - 2 table - 2 image.docx'.
+2026-04-29 14:43:11,745 | INFO | Completed DOCX extraction for 'peacock text - 2 table - 2 image.docx': 6 chunks, 2 tables.
+2026-04-29 14:43:11,746 | INFO | Extraction completed for file 'peacock text - 2 table - 2 image.docx': 6 chunks, 2 tables.
+2026-04-29 14:43:11,753 | INFO | Generated 4 embeddings for file 'peacock text - 2 table - 2 image.docx'.
+2026-04-29 14:43:11,753 | INFO | Preparing 4 chunk record(s) for document_id=0ce0f349-54cc-48b6-b6ef-bdfbbfce30a0.
+2026-04-29 14:43:11,787 | INFO | Inserted 4 chunk record(s) for document_id=0ce0f349-54cc-48b6-b6ef-bdfbbfce30a0.
+2026-04-29 14:43:11,806 | INFO | Writing 2 extracted tables to Neo4j.
+2026-04-29 14:43:12,140 | INFO | Stored 2 tables in Neo4j.
+2026-04-29 14:43:12,140 | INFO | Ingestion finished for file 'peacock text - 2 table - 2 image.docx': vector_store=pgVector & neo4j, stored_chunks=4, stored_tables=2.
+2026-04-29 14:43:12,141 | INFO | Upload batch processing completed.
+2026-04-29 14:43:16,763 | INFO | Application page load started.
+2026-04-29 14:43:16,767 | INFO | Initializing pgVector schema.
+2026-04-29 14:43:16,790 | INFO | pgVector schema initialization completed.
+2026-04-29 14:43:16,791 | INFO | pgVector connection validated successfully.
+2026-04-29 14:43:16,811 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:43:16,813 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:43:16,818 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:43:16,820 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:43:16,825 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:43:16,827 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:43:16,832 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:43:16,834 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:43:16,836 | INFO | Page selected: Chat
+2026-04-29 14:43:16,836 | INFO | Conversation Chat page rendered.
+2026-04-29 14:43:49,196 | INFO | Application page load started.
+2026-04-29 14:43:49,198 | INFO | Initializing pgVector schema.
+2026-04-29 14:43:49,220 | INFO | pgVector schema initialization completed.
+2026-04-29 14:43:49,222 | INFO | pgVector connection validated successfully.
+2026-04-29 14:43:49,234 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:43:49,235 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:43:49,239 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:43:49,241 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:43:49,246 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:43:49,247 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:43:49,275 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:43:49,277 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:43:49,278 | INFO | Page selected: Chat
+2026-04-29 14:43:49,279 | INFO | Conversation Chat page rendered.
+2026-04-29 14:43:49,284 | INFO | User submitted chat prompt.
+2026-04-29 14:43:49,288 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:43:49,293 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:43:49,296 | INFO | Running keyword search on pgVector chunks with 8 token(s).
+2026-04-29 14:43:49,303 | INFO | Running Neo4j table search with 8 token(s).
+2026-04-29 14:43:49,314 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 14:43:49,323 | INFO | Keyword search returned 4 row(s).
+2026-04-29 14:43:49,335 | INFO | pgVector similarity search returned 4 row(s).
+2026-04-29 14:43:49,336 | INFO | Conversation retrieval completed with 1 vector result(s) and 1 graph result(s).
+2026-04-29 14:43:49,648 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 14:43:52,938 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 14:44:17,244 | INFO | Application page load started.
+2026-04-29 14:44:17,246 | INFO | Initializing pgVector schema.
+2026-04-29 14:44:17,272 | INFO | pgVector schema initialization completed.
+2026-04-29 14:44:17,273 | INFO | pgVector connection validated successfully.
+2026-04-29 14:44:17,285 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:44:17,286 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:44:17,290 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:44:17,291 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:44:17,296 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:44:17,296 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:44:17,300 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:44:17,301 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:44:17,303 | INFO | Page selected: Chat
+2026-04-29 14:44:17,303 | INFO | Conversation Chat page rendered.
+2026-04-29 14:44:17,317 | INFO | Saving interaction feedback for message_id=c5037378-fd9b-4c8f-940b-2c912cef097f.
+2026-04-29 14:44:17,345 | INFO | Feedback saved for message_id=c5037378-fd9b-4c8f-940b-2c912cef097f.
+2026-04-29 14:44:17,438 | INFO | Application page load started.
+2026-04-29 14:44:17,440 | INFO | Initializing pgVector schema.
+2026-04-29 14:44:17,464 | INFO | pgVector schema initialization completed.
+2026-04-29 14:44:17,465 | INFO | pgVector connection validated successfully.
+2026-04-29 14:44:17,476 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:44:17,477 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:44:17,481 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:44:17,484 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:44:17,490 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:44:17,491 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:44:17,496 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:44:17,497 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:44:17,498 | INFO | Page selected: Chat
+2026-04-29 14:44:17,498 | INFO | Conversation Chat page rendered.
+2026-04-29 14:45:32,286 | INFO | Application page load started.
+2026-04-29 14:45:32,289 | INFO | Initializing pgVector schema.
+2026-04-29 14:45:32,317 | INFO | pgVector schema initialization completed.
+2026-04-29 14:45:32,318 | INFO | pgVector connection validated successfully.
+2026-04-29 14:45:32,330 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:45:32,332 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:45:32,355 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:45:32,356 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:45:32,362 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:45:32,363 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:45:32,366 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:45:32,367 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:45:32,368 | INFO | Page selected: Chat
+2026-04-29 14:45:32,368 | INFO | Conversation Chat page rendered.
+2026-04-29 14:45:32,373 | INFO | User submitted chat prompt.
+2026-04-29 14:45:32,378 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:45:32,380 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:45:32,384 | INFO | Running keyword search on pgVector chunks with 6 token(s).
+2026-04-29 14:45:32,391 | INFO | Running Neo4j table search with 6 token(s).
+2026-04-29 14:45:32,411 | INFO | Keyword search returned 4 row(s).
+2026-04-29 14:45:32,418 | INFO | pgVector similarity search returned 4 row(s).
+2026-04-29 14:45:32,426 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 14:45:32,428 | INFO | Conversation retrieval completed with 1 vector result(s) and 1 graph result(s).
+2026-04-29 14:45:32,688 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 14:45:35,708 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 14:56:45,996 | INFO | Application page load started.
+2026-04-29 14:56:46,000 | INFO | Initializing pgVector schema.
+2026-04-29 14:56:46,034 | INFO | pgVector schema initialization completed.
+2026-04-29 14:56:46,036 | INFO | pgVector connection validated successfully.
+2026-04-29 14:56:46,056 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:56:46,058 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:56:46,064 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:56:46,066 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:56:46,073 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:56:46,074 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:56:46,102 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:56:46,104 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:56:46,106 | INFO | Page selected: Document Embed
+2026-04-29 14:56:46,106 | INFO | Upload Files page rendered.
+2026-04-29 14:56:46,112 | INFO | No files selected on Upload Files page.
+2026-04-29 14:56:56,526 | INFO | Application page load started.
+2026-04-29 14:56:56,531 | INFO | Initializing pgVector schema.
+2026-04-29 14:56:56,572 | INFO | pgVector schema initialization completed.
+2026-04-29 14:56:56,573 | INFO | pgVector connection validated successfully.
+2026-04-29 14:56:56,594 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:56:56,596 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:56:56,607 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:56:56,610 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:56:56,620 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:56:56,622 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:56:56,646 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:56:56,648 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:56:56,650 | INFO | Page selected: Document Embed
+2026-04-29 14:56:56,651 | INFO | Upload Files page rendered.
+2026-04-29 14:57:10,503 | INFO | Application page load started.
+2026-04-29 14:57:10,505 | INFO | Initializing pgVector schema.
+2026-04-29 14:57:10,529 | INFO | pgVector schema initialization completed.
+2026-04-29 14:57:10,529 | INFO | pgVector connection validated successfully.
+2026-04-29 14:57:10,549 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:57:10,552 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:57:10,572 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:57:10,574 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:57:10,578 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:57:10,579 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:57:10,584 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:57:10,584 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:57:10,586 | INFO | Page selected: Document Embed
+2026-04-29 14:57:10,586 | INFO | Upload Files page rendered.
+2026-04-29 14:57:10,590 | INFO | Extract and Store triggered for 1 uploaded file(s) using pgVector & neo4j.
+2026-04-29 14:57:10,591 | INFO | Processing upload: peacock text.pdf
+2026-04-29 14:57:10,591 | INFO | Starting ingestion for file 'peacock text.pdf' with document_id=7642499b-1628-48d5-a736-b5829ef9fec0 using pgVector & neo4j.
+2026-04-29 14:57:10,591 | INFO | Dispatching extraction for file 'peacock text.pdf' with extension '.pdf'.
+2026-04-29 14:57:10,592 | INFO | Starting PDF extraction for 'peacock text.pdf'.
+2026-04-29 14:57:11,187 | INFO | Completed PDF extraction for 'peacock text.pdf': 2 chunks, 0 tables.
+2026-04-29 14:57:11,187 | INFO | Extraction completed for file 'peacock text.pdf': 2 chunks, 0 tables.
+2026-04-29 14:57:11,191 | INFO | Generated 2 embeddings for file 'peacock text.pdf'.
+2026-04-29 14:57:11,192 | INFO | Preparing 2 chunk record(s) for document_id=7642499b-1628-48d5-a736-b5829ef9fec0.
+2026-04-29 14:57:11,243 | INFO | Inserted 2 chunk record(s) for document_id=7642499b-1628-48d5-a736-b5829ef9fec0.
+2026-04-29 14:57:11,264 | INFO | No tables found for Neo4j storage.
+2026-04-29 14:57:11,264 | INFO | Ingestion finished for file 'peacock text.pdf': vector_store=pgVector & neo4j, stored_chunks=2, stored_tables=0.
+2026-04-29 14:57:11,265 | INFO | Upload batch processing completed.
+2026-04-29 14:57:39,173 | INFO | Application page load started.
+2026-04-29 14:57:39,176 | INFO | Initializing pgVector schema.
+2026-04-29 14:57:39,222 | INFO | pgVector schema initialization completed.
+2026-04-29 14:57:39,223 | INFO | pgVector connection validated successfully.
+2026-04-29 14:57:39,237 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:57:39,239 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:57:39,244 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:57:39,246 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:57:39,252 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:57:39,253 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:57:39,257 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:57:39,259 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:57:39,261 | INFO | Page selected: Chat
+2026-04-29 14:57:39,261 | INFO | Conversation Chat page rendered.
+2026-04-29 14:57:52,608 | INFO | Application page load started.
+2026-04-29 14:57:52,611 | INFO | Initializing pgVector schema.
+2026-04-29 14:57:52,642 | INFO | pgVector schema initialization completed.
+2026-04-29 14:57:52,643 | INFO | pgVector connection validated successfully.
+2026-04-29 14:57:52,656 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:57:52,658 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:57:52,678 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:57:52,680 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:57:52,716 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:57:52,720 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:57:52,740 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:57:52,741 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:57:52,746 | INFO | Page selected: Chat
+2026-04-29 14:57:52,746 | INFO | Conversation Chat page rendered.
+2026-04-29 14:57:52,754 | INFO | User submitted chat prompt.
+2026-04-29 14:57:52,758 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:57:52,763 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:57:52,768 | INFO | Running keyword search on pgVector chunks with 6 token(s).
+2026-04-29 14:57:52,774 | INFO | Running Neo4j table search with 6 token(s).
+2026-04-29 14:57:52,793 | INFO | pgVector similarity search returned 2 row(s).
+2026-04-29 14:57:52,795 | INFO | Keyword search returned 1 row(s).
+2026-04-29 14:57:52,907 | INFO | Neo4j table search returned 0 row(s).
+2026-04-29 14:57:52,908 | INFO | Conversation retrieval completed with 2 vector result(s) and 0 graph result(s).
+2026-04-29 14:57:53,204 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 14:57:59,359 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 14:58:22,901 | INFO | Application page load started.
+2026-04-29 14:58:22,903 | INFO | Initializing pgVector schema.
+2026-04-29 14:58:22,946 | INFO | pgVector schema initialization completed.
+2026-04-29 14:58:22,947 | INFO | pgVector connection validated successfully.
+2026-04-29 14:58:22,956 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:58:22,958 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:58:22,962 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:58:22,964 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:58:22,967 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:58:22,968 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:58:22,971 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:58:22,972 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:58:22,974 | INFO | Page selected: Chat
+2026-04-29 14:58:22,974 | INFO | Conversation Chat page rendered.
+2026-04-29 14:58:22,984 | INFO | User submitted chat prompt.
+2026-04-29 14:58:22,988 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:58:22,993 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:58:22,997 | INFO | Running keyword search on pgVector chunks with 8 token(s).
+2026-04-29 14:58:23,006 | INFO | Running Neo4j table search with 8 token(s).
+2026-04-29 14:58:23,016 | INFO | Neo4j table search returned 0 row(s).
+2026-04-29 14:58:23,025 | INFO | pgVector similarity search returned 2 row(s).
+2026-04-29 14:58:23,025 | INFO | Keyword search returned 1 row(s).
+2026-04-29 14:58:23,027 | INFO | Conversation retrieval completed with 1 vector result(s) and 0 graph result(s).
+2026-04-29 14:58:23,283 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 14:58:26,452 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 14:58:57,527 | INFO | Application page load started.
+2026-04-29 14:58:57,529 | INFO | Initializing pgVector schema.
+2026-04-29 14:58:57,562 | INFO | pgVector schema initialization completed.
+2026-04-29 14:58:57,563 | INFO | pgVector connection validated successfully.
+2026-04-29 14:58:57,577 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:58:57,579 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:58:57,583 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:58:57,585 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:58:57,614 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:58:57,615 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:58:57,620 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:58:57,620 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:58:57,622 | INFO | Page selected: Chat
+2026-04-29 14:58:57,622 | INFO | Conversation Chat page rendered.
+2026-04-29 14:58:57,643 | INFO | User submitted chat prompt.
+2026-04-29 14:58:57,647 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 14:58:57,651 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 14:58:57,656 | INFO | Running keyword search on pgVector chunks with 16 token(s).
+2026-04-29 14:58:57,663 | INFO | Running Neo4j table search with 16 token(s).
+2026-04-29 14:58:57,680 | INFO | pgVector similarity search returned 2 row(s).
+2026-04-29 14:58:57,684 | INFO | Keyword search returned 2 row(s).
+2026-04-29 14:58:57,771 | INFO | Neo4j table search returned 0 row(s).
+2026-04-29 14:58:57,772 | INFO | Conversation retrieval completed with 2 vector result(s) and 0 graph result(s).
+2026-04-29 14:58:58,055 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 14:59:00,049 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 14:59:04,342 | INFO | Application page load started.
+2026-04-29 14:59:04,344 | INFO | Initializing pgVector schema.
+2026-04-29 14:59:04,369 | INFO | pgVector schema initialization completed.
+2026-04-29 14:59:04,370 | INFO | pgVector connection validated successfully.
+2026-04-29 14:59:04,381 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:59:04,383 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:59:04,388 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:59:04,390 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:59:04,395 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:59:04,396 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:59:04,400 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:59:04,402 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:59:04,404 | INFO | Page selected: Chat
+2026-04-29 14:59:04,404 | INFO | Conversation Chat page rendered.
+2026-04-29 14:59:04,427 | INFO | Saving interaction feedback for message_id=c1638677-863c-44e1-9d2f-91263681a98d.
+2026-04-29 14:59:04,473 | INFO | Feedback saved for message_id=c1638677-863c-44e1-9d2f-91263681a98d.
+2026-04-29 14:59:04,554 | INFO | Application page load started.
+2026-04-29 14:59:04,557 | INFO | Initializing pgVector schema.
+2026-04-29 14:59:04,578 | INFO | pgVector schema initialization completed.
+2026-04-29 14:59:04,579 | INFO | pgVector connection validated successfully.
+2026-04-29 14:59:04,588 | INFO | Neo4j connection validated successfully.
+2026-04-29 14:59:04,589 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 14:59:04,593 | INFO | Qdrant connectivity check completed.
+2026-04-29 14:59:04,595 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 14:59:04,600 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 14:59:04,601 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 14:59:04,605 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 14:59:04,607 | INFO | Qdrant connection validated successfully.
+2026-04-29 14:59:04,608 | INFO | Page selected: Chat
+2026-04-29 14:59:04,608 | INFO | Conversation Chat page rendered.
+2026-04-29 16:55:04,353 | INFO | Application page load started.
+2026-04-29 16:55:04,360 | INFO | Initializing pgVector schema.
+2026-04-29 16:55:04,416 | INFO | pgVector schema initialization completed.
+2026-04-29 16:55:04,416 | INFO | pgVector connection validated successfully.
+2026-04-29 16:55:04,510 | INFO | Neo4j connection validated successfully.
+2026-04-29 16:55:04,512 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 16:55:04,527 | INFO | Qdrant connectivity check completed.
+2026-04-29 16:55:04,528 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 16:55:04,543 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 16:55:04,544 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 16:55:04,553 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 16:55:04,554 | INFO | Qdrant connection validated successfully.
+2026-04-29 16:55:04,555 | INFO | Page selected: Document Embed
+2026-04-29 16:55:04,556 | INFO | Upload Files page rendered.
+2026-04-29 16:55:04,561 | INFO | No files selected on Upload Files page.
+2026-04-29 16:55:09,664 | INFO | Application page load started.
+2026-04-29 16:55:09,666 | INFO | Initializing pgVector schema.
+2026-04-29 16:55:09,709 | INFO | pgVector schema initialization completed.
+2026-04-29 16:55:09,710 | INFO | pgVector connection validated successfully.
+2026-04-29 16:55:09,719 | INFO | Neo4j connection validated successfully.
+2026-04-29 16:55:09,721 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 16:55:09,730 | INFO | Qdrant connectivity check completed.
+2026-04-29 16:55:09,732 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 16:55:09,759 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 16:55:09,761 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 16:55:09,790 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 16:55:09,792 | INFO | Qdrant connection validated successfully.
+2026-04-29 16:55:09,793 | INFO | Page selected: Chat
+2026-04-29 16:55:09,794 | INFO | Conversation Chat page rendered.
+2026-04-29 16:55:53,224 | INFO | Application page load started.
+2026-04-29 16:55:53,227 | INFO | Initializing pgVector schema.
+2026-04-29 16:55:53,251 | INFO | pgVector schema initialization completed.
+2026-04-29 16:55:53,252 | INFO | pgVector connection validated successfully.
+2026-04-29 16:55:53,263 | INFO | Neo4j connection validated successfully.
+2026-04-29 16:55:53,265 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 16:55:53,281 | INFO | Qdrant connectivity check completed.
+2026-04-29 16:55:53,283 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 16:55:53,314 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 16:55:53,315 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 16:55:53,323 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 16:55:53,324 | INFO | Qdrant connection validated successfully.
+2026-04-29 16:55:53,325 | INFO | Page selected: Chat
+2026-04-29 16:55:53,325 | INFO | Conversation Chat page rendered.
+2026-04-29 16:55:53,328 | INFO | User submitted chat prompt.
+2026-04-29 16:55:53,332 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 16:55:53,337 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 16:55:53,340 | INFO | Running keyword search on pgVector chunks with 12 token(s).
+2026-04-29 16:55:53,346 | INFO | Running Neo4j table search with 12 token(s).
+2026-04-29 16:55:53,372 | INFO | Keyword search returned 2 row(s).
+2026-04-29 16:55:53,376 | INFO | pgVector similarity search returned 2 row(s).
+2026-04-29 16:55:53,663 | INFO | Neo4j table search returned 0 row(s).
+2026-04-29 16:55:53,664 | INFO | Conversation retrieval completed with 1 vector result(s) and 0 graph result(s).
+2026-04-29 16:55:54,030 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 16:55:57,162 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:00:13,893 | INFO | Application page load started.
+2026-04-29 17:00:13,896 | INFO | Initializing pgVector schema.
+2026-04-29 17:00:13,927 | INFO | pgVector schema initialization completed.
+2026-04-29 17:00:13,928 | INFO | pgVector connection validated successfully.
+2026-04-29 17:00:13,993 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:00:13,994 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:00:14,019 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:00:14,021 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:00:14,026 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:00:14,026 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:00:14,030 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:00:14,031 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:00:14,033 | INFO | Page selected: Document Embed
+2026-04-29 17:00:14,034 | INFO | Upload Files page rendered.
+2026-04-29 17:00:14,037 | INFO | No files selected on Upload Files page.
+2026-04-29 17:00:22,353 | INFO | Application page load started.
+2026-04-29 17:00:22,355 | INFO | Initializing pgVector schema.
+2026-04-29 17:00:22,389 | INFO | pgVector schema initialization completed.
+2026-04-29 17:00:22,389 | INFO | pgVector connection validated successfully.
+2026-04-29 17:00:22,405 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:00:22,407 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:00:22,434 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:00:22,436 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:00:22,450 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:00:22,452 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:00:22,456 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:00:22,457 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:00:22,458 | INFO | Page selected: Document Embed
+2026-04-29 17:00:22,459 | INFO | Upload Files page rendered.
+2026-04-29 17:00:24,918 | INFO | Application page load started.
+2026-04-29 17:00:24,920 | INFO | Initializing pgVector schema.
+2026-04-29 17:00:24,958 | INFO | pgVector schema initialization completed.
+2026-04-29 17:00:24,958 | INFO | pgVector connection validated successfully.
+2026-04-29 17:00:24,984 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:00:24,986 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:00:25,005 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:00:25,007 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:00:25,020 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:00:25,022 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:00:25,025 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:00:25,026 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:00:25,027 | INFO | Page selected: Document Embed
+2026-04-29 17:00:25,027 | INFO | Upload Files page rendered.
+2026-04-29 17:00:25,033 | INFO | Extract and Store triggered for 1 uploaded file(s) using pgVector & neo4j.
+2026-04-29 17:00:25,033 | INFO | Processing upload: peacock text - table.pdf
+2026-04-29 17:00:25,033 | INFO | Starting ingestion for file 'peacock text - table.pdf' with document_id=326e8727-4f39-4b54-b5e1-4af92fc9e93d using pgVector & neo4j.
+2026-04-29 17:00:25,035 | INFO | Dispatching extraction for file 'peacock text - table.pdf' with extension '.pdf'.
+2026-04-29 17:00:25,035 | INFO | Starting PDF extraction for 'peacock text - table.pdf'.
+2026-04-29 17:00:25,993 | INFO | Completed PDF extraction for 'peacock text - table.pdf': 5 chunks, 2 tables.
+2026-04-29 17:00:25,993 | INFO | Extraction completed for file 'peacock text - table.pdf': 5 chunks, 2 tables.
+2026-04-29 17:00:26,009 | INFO | Generated 3 embeddings for file 'peacock text - table.pdf'.
+2026-04-29 17:00:26,009 | INFO | Preparing 3 chunk record(s) for document_id=326e8727-4f39-4b54-b5e1-4af92fc9e93d.
+2026-04-29 17:00:26,041 | INFO | Inserted 3 chunk record(s) for document_id=326e8727-4f39-4b54-b5e1-4af92fc9e93d.
+2026-04-29 17:00:26,065 | INFO | Writing 2 extracted tables to Neo4j.
+2026-04-29 17:00:28,899 | INFO | Stored 2 tables in Neo4j.
+2026-04-29 17:00:28,899 | INFO | Ingestion finished for file 'peacock text - table.pdf': vector_store=pgVector & neo4j, stored_chunks=3, stored_tables=2.
+2026-04-29 17:00:28,900 | INFO | Upload batch processing completed.
+2026-04-29 17:00:54,175 | INFO | Application page load started.
+2026-04-29 17:00:54,177 | INFO | Initializing pgVector schema.
+2026-04-29 17:00:54,200 | INFO | pgVector schema initialization completed.
+2026-04-29 17:00:54,201 | INFO | pgVector connection validated successfully.
+2026-04-29 17:00:54,233 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:00:54,234 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:00:54,239 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:00:54,242 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:00:54,249 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:00:54,250 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:00:54,256 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:00:54,257 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:00:54,258 | INFO | Page selected: Document Embed
+2026-04-29 17:00:54,258 | INFO | Upload Files page rendered.
+2026-04-29 17:00:54,264 | INFO | No files selected on Upload Files page.
+2026-04-29 17:00:57,819 | INFO | Application page load started.
+2026-04-29 17:00:57,823 | INFO | Initializing pgVector schema.
+2026-04-29 17:00:57,850 | INFO | pgVector schema initialization completed.
+2026-04-29 17:00:57,851 | INFO | pgVector connection validated successfully.
+2026-04-29 17:00:57,867 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:00:57,868 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:00:57,872 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:00:57,874 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:00:57,878 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:00:57,879 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:00:57,884 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:00:57,885 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:00:57,886 | INFO | Page selected: Chat
+2026-04-29 17:00:57,886 | INFO | Conversation Chat page rendered.
+2026-04-29 17:02:07,348 | INFO | Application page load started.
+2026-04-29 17:02:07,352 | INFO | Initializing pgVector schema.
+2026-04-29 17:02:07,381 | INFO | pgVector schema initialization completed.
+2026-04-29 17:02:07,382 | INFO | pgVector connection validated successfully.
+2026-04-29 17:02:07,428 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:02:07,431 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:02:07,459 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:02:07,460 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:02:07,465 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:02:07,466 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:02:07,471 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:02:07,472 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:02:07,473 | INFO | Page selected: Chat
+2026-04-29 17:02:07,474 | INFO | Conversation Chat page rendered.
+2026-04-29 17:02:07,478 | INFO | User submitted chat prompt.
+2026-04-29 17:02:07,481 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 17:02:07,486 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 17:02:07,488 | INFO | Running keyword search on pgVector chunks with 12 token(s).
+2026-04-29 17:02:07,495 | INFO | Running Neo4j table search with 12 token(s).
+2026-04-29 17:02:07,511 | INFO | pgVector similarity search returned 3 row(s).
+2026-04-29 17:02:07,545 | INFO | Keyword search returned 3 row(s).
+2026-04-29 17:02:07,928 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 17:02:07,931 | INFO | Conversation retrieval completed with 1 vector result(s) and 1 graph result(s).
+2026-04-29 17:02:08,197 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:02:12,622 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:03:03,916 | INFO | Application page load started.
+2026-04-29 17:03:03,919 | INFO | Initializing pgVector schema.
+2026-04-29 17:03:03,954 | INFO | pgVector schema initialization completed.
+2026-04-29 17:03:03,955 | INFO | pgVector connection validated successfully.
+2026-04-29 17:03:03,972 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:03:03,973 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:03:04,001 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:03:04,002 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:03:04,007 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:03:04,007 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:03:04,031 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:03:04,032 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:03:04,033 | INFO | Page selected: Chat
+2026-04-29 17:03:04,033 | INFO | Conversation Chat page rendered.
+2026-04-29 17:03:04,049 | INFO | User submitted chat prompt.
+2026-04-29 17:03:04,052 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 17:03:04,056 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 17:03:04,063 | INFO | Running keyword search on pgVector chunks with 14 token(s).
+2026-04-29 17:03:04,069 | INFO | Running Neo4j table search with 14 token(s).
+2026-04-29 17:03:04,086 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 17:03:04,096 | INFO | pgVector similarity search returned 3 row(s).
+2026-04-29 17:03:04,108 | INFO | Keyword search returned 3 row(s).
+2026-04-29 17:03:04,110 | INFO | Conversation retrieval completed with 2 vector result(s) and 0 graph result(s).
+2026-04-29 17:03:04,373 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:03:06,011 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:03:14,749 | INFO | Application page load started.
+2026-04-29 17:03:14,751 | INFO | Initializing pgVector schema.
+2026-04-29 17:03:14,782 | INFO | pgVector schema initialization completed.
+2026-04-29 17:03:14,783 | INFO | pgVector connection validated successfully.
+2026-04-29 17:03:14,800 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:03:14,801 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:03:14,808 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:03:14,810 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:03:14,816 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:03:14,817 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:03:14,823 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:03:14,824 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:03:14,826 | INFO | Page selected: Chat
+2026-04-29 17:03:14,826 | INFO | Conversation Chat page rendered.
+2026-04-29 17:03:14,857 | INFO | Saving interaction feedback for message_id=0e28a3a1-d9d1-4180-8859-2f6bc9874f7e.
+2026-04-29 17:03:14,888 | INFO | Feedback saved for message_id=0e28a3a1-d9d1-4180-8859-2f6bc9874f7e.
+2026-04-29 17:03:15,009 | INFO | Application page load started.
+2026-04-29 17:03:15,012 | INFO | Initializing pgVector schema.
+2026-04-29 17:03:15,036 | INFO | pgVector schema initialization completed.
+2026-04-29 17:03:15,037 | INFO | pgVector connection validated successfully.
+2026-04-29 17:03:15,054 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:03:15,056 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:03:15,062 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:03:15,064 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:03:15,069 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:03:15,071 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:03:15,092 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:03:15,093 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:03:15,095 | INFO | Page selected: Chat
+2026-04-29 17:03:15,095 | INFO | Conversation Chat page rendered.
+2026-04-29 17:04:15,874 | INFO | Application page load started.
+2026-04-29 17:04:15,877 | INFO | Initializing pgVector schema.
+2026-04-29 17:04:15,902 | INFO | pgVector schema initialization completed.
+2026-04-29 17:04:15,904 | INFO | pgVector connection validated successfully.
+2026-04-29 17:04:15,928 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:04:15,930 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:04:15,935 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:04:15,938 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:04:15,962 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:04:15,963 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:04:15,967 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:04:15,968 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:04:15,970 | INFO | Page selected: Document Embed
+2026-04-29 17:04:15,970 | INFO | Upload Files page rendered.
+2026-04-29 17:04:17,795 | INFO | Application page load started.
+2026-04-29 17:04:17,798 | INFO | Initializing pgVector schema.
+2026-04-29 17:04:17,828 | INFO | pgVector schema initialization completed.
+2026-04-29 17:04:17,829 | INFO | pgVector connection validated successfully.
+2026-04-29 17:04:17,844 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:04:17,845 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:04:17,849 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:04:17,852 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:04:17,857 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:04:17,859 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:04:17,862 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:04:17,863 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:04:17,866 | INFO | Page selected: Document Embed
+2026-04-29 17:04:17,866 | INFO | Upload Files page rendered.
+2026-04-29 17:04:20,401 | INFO | Application page load started.
+2026-04-29 17:04:20,404 | INFO | Initializing pgVector schema.
+2026-04-29 17:04:20,451 | INFO | pgVector schema initialization completed.
+2026-04-29 17:04:20,452 | INFO | pgVector connection validated successfully.
+2026-04-29 17:04:20,464 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:04:20,465 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:04:20,491 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:04:20,492 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:04:20,521 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:04:20,522 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:04:20,536 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:04:20,537 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:04:20,539 | INFO | Page selected: Document Embed
+2026-04-29 17:04:20,539 | INFO | Upload Files page rendered.
+2026-04-29 17:04:20,542 | INFO | No files selected on Upload Files page.
+2026-04-29 17:04:23,649 | INFO | Application page load started.
+2026-04-29 17:04:23,652 | INFO | Initializing pgVector schema.
+2026-04-29 17:04:23,674 | INFO | pgVector schema initialization completed.
+2026-04-29 17:04:23,675 | INFO | pgVector connection validated successfully.
+2026-04-29 17:04:23,697 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:04:23,698 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:04:23,722 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:04:23,723 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:04:23,738 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:04:23,739 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:04:23,743 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:04:23,744 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:04:23,745 | INFO | Page selected: Document Embed
+2026-04-29 17:04:23,745 | INFO | Upload Files page rendered.
+2026-04-29 17:04:25,211 | INFO | Application page load started.
+2026-04-29 17:04:25,213 | INFO | Initializing pgVector schema.
+2026-04-29 17:04:25,237 | INFO | pgVector schema initialization completed.
+2026-04-29 17:04:25,238 | INFO | pgVector connection validated successfully.
+2026-04-29 17:04:25,253 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:04:25,256 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:04:25,283 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:04:25,287 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:04:25,291 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:04:25,292 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:04:25,314 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:04:25,315 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:04:25,317 | INFO | Page selected: Document Embed
+2026-04-29 17:04:25,318 | INFO | Upload Files page rendered.
+2026-04-29 17:04:25,322 | INFO | Extract and Store triggered for 1 uploaded file(s) using pgVector & neo4j.
+2026-04-29 17:04:25,323 | INFO | Processing upload: peacock text - 2 table - 1 image.pdf
+2026-04-29 17:04:25,323 | INFO | Starting ingestion for file 'peacock text - 2 table - 1 image.pdf' with document_id=c33238e6-acc3-4a8c-b58d-46d8d854af5d using pgVector & neo4j.
+2026-04-29 17:04:25,324 | INFO | Dispatching extraction for file 'peacock text - 2 table - 1 image.pdf' with extension '.pdf'.
+2026-04-29 17:04:25,325 | INFO | Starting PDF extraction for 'peacock text - 2 table - 1 image.pdf'.
+2026-04-29 17:04:26,336 | INFO | Completed PDF extraction for 'peacock text - 2 table - 1 image.pdf': 7 chunks, 2 tables.
+2026-04-29 17:04:26,337 | INFO | Extraction completed for file 'peacock text - 2 table - 1 image.pdf': 7 chunks, 2 tables.
+2026-04-29 17:04:26,343 | INFO | Generated 5 embeddings for file 'peacock text - 2 table - 1 image.pdf'.
+2026-04-29 17:04:26,344 | INFO | Preparing 5 chunk record(s) for document_id=c33238e6-acc3-4a8c-b58d-46d8d854af5d.
+2026-04-29 17:04:26,387 | INFO | Inserted 5 chunk record(s) for document_id=c33238e6-acc3-4a8c-b58d-46d8d854af5d.
+2026-04-29 17:04:26,407 | INFO | Writing 2 extracted tables to Neo4j.
+2026-04-29 17:04:26,908 | INFO | Stored 2 tables in Neo4j.
+2026-04-29 17:04:26,908 | INFO | Ingestion finished for file 'peacock text - 2 table - 1 image.pdf': vector_store=pgVector & neo4j, stored_chunks=5, stored_tables=2.
+2026-04-29 17:04:26,909 | INFO | Upload batch processing completed.
+2026-04-29 17:04:42,253 | INFO | Application page load started.
+2026-04-29 17:04:42,256 | INFO | Initializing pgVector schema.
+2026-04-29 17:04:42,283 | INFO | pgVector schema initialization completed.
+2026-04-29 17:04:42,285 | INFO | pgVector connection validated successfully.
+2026-04-29 17:04:42,313 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:04:42,315 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:04:42,320 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:04:42,322 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:04:42,327 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:04:42,328 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:04:42,333 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:04:42,334 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:04:42,336 | INFO | Page selected: Chat
+2026-04-29 17:04:42,336 | INFO | Conversation Chat page rendered.
+2026-04-29 17:04:42,340 | INFO | User submitted chat prompt.
+2026-04-29 17:04:42,344 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 17:04:42,349 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 17:04:42,353 | INFO | Running keyword search on pgVector chunks with 10 token(s).
+2026-04-29 17:04:42,360 | INFO | Running Neo4j table search with 10 token(s).
+2026-04-29 17:04:42,380 | INFO | pgVector similarity search returned 5 row(s).
+2026-04-29 17:04:42,391 | INFO | Keyword search returned 5 row(s).
+2026-04-29 17:04:42,521 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 17:04:42,524 | INFO | Conversation retrieval completed with 4 vector result(s) and 1 graph result(s).
+2026-04-29 17:04:42,821 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:04:45,154 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:06:24,553 | INFO | Application page load started.
+2026-04-29 17:06:24,555 | INFO | Initializing pgVector schema.
+2026-04-29 17:06:24,579 | INFO | pgVector schema initialization completed.
+2026-04-29 17:06:24,580 | INFO | pgVector connection validated successfully.
+2026-04-29 17:06:24,604 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:06:24,606 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:06:24,622 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:06:24,625 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:06:24,629 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:06:24,630 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:06:24,634 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:06:24,635 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:06:24,637 | INFO | Page selected: Document Embed
+2026-04-29 17:06:24,637 | INFO | Upload Files page rendered.
+2026-04-29 17:06:24,641 | INFO | No files selected on Upload Files page.
+2026-04-29 17:06:28,764 | INFO | Application page load started.
+2026-04-29 17:06:28,768 | INFO | Initializing pgVector schema.
+2026-04-29 17:06:28,794 | INFO | pgVector schema initialization completed.
+2026-04-29 17:06:28,795 | INFO | pgVector connection validated successfully.
+2026-04-29 17:06:28,822 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:06:28,823 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:06:28,827 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:06:28,828 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:06:28,832 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:06:28,834 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:06:28,861 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:06:28,861 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:06:28,862 | INFO | Page selected: Document Embed
+2026-04-29 17:06:28,863 | INFO | Upload Files page rendered.
+2026-04-29 17:06:31,545 | INFO | Application page load started.
+2026-04-29 17:06:31,547 | INFO | Initializing pgVector schema.
+2026-04-29 17:06:31,585 | INFO | pgVector schema initialization completed.
+2026-04-29 17:06:31,586 | INFO | pgVector connection validated successfully.
+2026-04-29 17:06:31,621 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:06:31,623 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:06:31,643 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:06:31,645 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:06:31,649 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:06:31,651 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:06:31,655 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:06:31,656 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:06:31,657 | INFO | Page selected: Document Embed
+2026-04-29 17:06:31,657 | INFO | Upload Files page rendered.
+2026-04-29 17:06:31,662 | INFO | Extract and Store triggered for 1 uploaded file(s) using pgVector & neo4j.
+2026-04-29 17:06:31,662 | INFO | Processing upload: peacock text - 2 table - 2 image.pdf
+2026-04-29 17:06:31,662 | INFO | Starting ingestion for file 'peacock text - 2 table - 2 image.pdf' with document_id=e1954e57-83c5-41ed-b6c1-c671a263b7b1 using pgVector & neo4j.
+2026-04-29 17:06:31,662 | INFO | Dispatching extraction for file 'peacock text - 2 table - 2 image.pdf' with extension '.pdf'.
+2026-04-29 17:06:31,662 | INFO | Starting PDF extraction for 'peacock text - 2 table - 2 image.pdf'.
+2026-04-29 17:06:32,715 | INFO | Completed PDF extraction for 'peacock text - 2 table - 2 image.pdf': 9 chunks, 2 tables.
+2026-04-29 17:06:32,716 | INFO | Extraction completed for file 'peacock text - 2 table - 2 image.pdf': 9 chunks, 2 tables.
+2026-04-29 17:06:32,725 | INFO | Generated 7 embeddings for file 'peacock text - 2 table - 2 image.pdf'.
+2026-04-29 17:06:32,725 | INFO | Preparing 7 chunk record(s) for document_id=e1954e57-83c5-41ed-b6c1-c671a263b7b1.
+2026-04-29 17:06:32,767 | INFO | Inserted 7 chunk record(s) for document_id=e1954e57-83c5-41ed-b6c1-c671a263b7b1.
+2026-04-29 17:06:32,788 | INFO | Writing 2 extracted tables to Neo4j.
+2026-04-29 17:06:33,150 | INFO | Stored 2 tables in Neo4j.
+2026-04-29 17:06:33,150 | INFO | Ingestion finished for file 'peacock text - 2 table - 2 image.pdf': vector_store=pgVector & neo4j, stored_chunks=7, stored_tables=2.
+2026-04-29 17:06:33,151 | INFO | Upload batch processing completed.
+2026-04-29 17:06:39,223 | INFO | Application page load started.
+2026-04-29 17:06:39,226 | INFO | Initializing pgVector schema.
+2026-04-29 17:06:39,253 | INFO | pgVector schema initialization completed.
+2026-04-29 17:06:39,255 | INFO | pgVector connection validated successfully.
+2026-04-29 17:06:39,276 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:06:39,278 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:06:39,282 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:06:39,284 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:06:39,289 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:06:39,290 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:06:39,295 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:06:39,296 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:06:39,298 | INFO | Page selected: Chat
+2026-04-29 17:06:39,298 | INFO | Conversation Chat page rendered.
+2026-04-29 17:06:39,356 | INFO | Saving interaction feedback for message_id=b15a8133-d8b4-4fb6-b09e-35cbd9a36745.
+2026-04-29 17:06:39,378 | INFO | Feedback saved for message_id=b15a8133-d8b4-4fb6-b09e-35cbd9a36745.
+2026-04-29 17:06:39,489 | INFO | Application page load started.
+2026-04-29 17:06:39,493 | INFO | Initializing pgVector schema.
+2026-04-29 17:06:39,520 | INFO | pgVector schema initialization completed.
+2026-04-29 17:06:39,522 | INFO | pgVector connection validated successfully.
+2026-04-29 17:06:39,535 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:06:39,537 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:06:39,542 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:06:39,544 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:06:39,548 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:06:39,549 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:06:39,553 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:06:39,554 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:06:39,556 | INFO | Page selected: Chat
+2026-04-29 17:06:39,556 | INFO | Conversation Chat page rendered.
+2026-04-29 17:06:55,401 | INFO | Application page load started.
+2026-04-29 17:06:55,404 | INFO | Initializing pgVector schema.
+2026-04-29 17:06:55,425 | INFO | pgVector schema initialization completed.
+2026-04-29 17:06:55,426 | INFO | pgVector connection validated successfully.
+2026-04-29 17:06:55,438 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:06:55,440 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:06:55,464 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:06:55,466 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:06:55,480 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:06:55,483 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:06:55,489 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:06:55,491 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:06:55,496 | INFO | Page selected: Chat
+2026-04-29 17:06:55,496 | INFO | Conversation Chat page rendered.
+2026-04-29 17:06:55,503 | INFO | User submitted chat prompt.
+2026-04-29 17:06:55,508 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 17:06:55,512 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 17:06:55,518 | INFO | Running keyword search on pgVector chunks with 14 token(s).
+2026-04-29 17:06:55,526 | INFO | Running Neo4j table search with 14 token(s).
+2026-04-29 17:06:55,544 | INFO | Neo4j table search returned 2 row(s).
+2026-04-29 17:06:55,546 | INFO | pgVector similarity search returned 7 row(s).
+2026-04-29 17:06:55,561 | INFO | Keyword search returned 7 row(s).
+2026-04-29 17:06:55,563 | INFO | Conversation retrieval completed with 5 vector result(s) and 1 graph result(s).
+2026-04-29 17:06:55,841 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:07:00,224 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:13:09,177 | INFO | Application page load started.
+2026-04-29 17:13:09,180 | INFO | Initializing pgVector schema.
+2026-04-29 17:13:09,221 | INFO | pgVector schema initialization completed.
+2026-04-29 17:13:09,221 | INFO | pgVector connection validated successfully.
+2026-04-29 17:13:09,237 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:13:09,239 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:13:09,266 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:13:09,268 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:13:09,365 | INFO | Qdrant collection initialization completed.
+2026-04-29 17:13:09,367 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:13:09,479 | INFO | Qdrant collection initialization completed.
+2026-04-29 17:13:09,480 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:13:09,482 | INFO | Page selected: Document Embed
+2026-04-29 17:13:09,482 | INFO | Upload Files page rendered.
+2026-04-29 17:13:09,485 | INFO | No files selected on Upload Files page.
+2026-04-29 17:13:14,544 | INFO | Application page load started.
+2026-04-29 17:13:14,548 | INFO | Initializing pgVector schema.
+2026-04-29 17:13:14,573 | INFO | pgVector schema initialization completed.
+2026-04-29 17:13:14,573 | INFO | pgVector connection validated successfully.
+2026-04-29 17:13:14,591 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:13:14,594 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:13:14,624 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:13:14,626 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:13:14,657 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:13:14,658 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:13:14,662 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:13:14,663 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:13:14,664 | INFO | Page selected: Document Embed
+2026-04-29 17:13:14,664 | INFO | Upload Files page rendered.
+2026-04-29 17:13:16,118 | INFO | Application page load started.
+2026-04-29 17:13:16,119 | INFO | Initializing pgVector schema.
+2026-04-29 17:13:16,153 | INFO | pgVector schema initialization completed.
+2026-04-29 17:13:16,153 | INFO | pgVector connection validated successfully.
+2026-04-29 17:13:16,167 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:13:16,168 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:13:16,200 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:13:16,205 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:13:16,226 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:13:16,227 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:13:16,232 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:13:16,233 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:13:16,234 | INFO | Page selected: Document Embed
+2026-04-29 17:13:16,234 | INFO | Upload Files page rendered.
+2026-04-29 17:13:16,238 | INFO | Extract and Store triggered for 1 uploaded file(s) using pgVector & neo4j.
+2026-04-29 17:13:16,239 | INFO | Processing upload: peacock text - 2 table - 2 image.pdf
+2026-04-29 17:13:16,239 | INFO | Starting ingestion for file 'peacock text - 2 table - 2 image.pdf' with document_id=640a1d07-88ba-49a2-b3fa-bd15ec6b23b4 using pgVector & neo4j.
+2026-04-29 17:13:16,239 | INFO | Dispatching extraction for file 'peacock text - 2 table - 2 image.pdf' with extension '.pdf'.
+2026-04-29 17:13:16,239 | INFO | Starting PDF extraction for 'peacock text - 2 table - 2 image.pdf'.
+2026-04-29 17:13:17,225 | INFO | Completed PDF extraction for 'peacock text - 2 table - 2 image.pdf': 9 chunks, 2 tables.
+2026-04-29 17:13:17,226 | INFO | Extraction completed for file 'peacock text - 2 table - 2 image.pdf': 9 chunks, 2 tables.
+2026-04-29 17:13:17,234 | INFO | Generated 7 embeddings for file 'peacock text - 2 table - 2 image.pdf'.
+2026-04-29 17:13:17,234 | INFO | Preparing 7 chunk record(s) for document_id=640a1d07-88ba-49a2-b3fa-bd15ec6b23b4.
+2026-04-29 17:13:17,299 | INFO | Inserted 7 chunk record(s) for document_id=640a1d07-88ba-49a2-b3fa-bd15ec6b23b4.
+2026-04-29 17:13:17,319 | INFO | Writing 2 extracted tables to Neo4j.
+2026-04-29 17:13:18,218 | INFO | Stored 2 tables in Neo4j.
+2026-04-29 17:13:18,219 | INFO | Ingestion finished for file 'peacock text - 2 table - 2 image.pdf': vector_store=pgVector & neo4j, stored_chunks=7, stored_tables=2.
+2026-04-29 17:13:18,219 | INFO | Upload batch processing completed.
+2026-04-29 17:13:36,926 | INFO | Application page load started.
+2026-04-29 17:13:36,929 | INFO | Initializing pgVector schema.
+2026-04-29 17:13:36,963 | INFO | pgVector schema initialization completed.
+2026-04-29 17:13:36,964 | INFO | pgVector connection validated successfully.
+2026-04-29 17:13:36,999 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:13:37,000 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:13:37,006 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:13:37,008 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:13:37,116 | INFO | Qdrant collection initialization completed.
+2026-04-29 17:13:37,117 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:13:37,229 | INFO | Qdrant collection initialization completed.
+2026-04-29 17:13:37,230 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:13:37,231 | INFO | Page selected: Document Embed
+2026-04-29 17:13:37,231 | INFO | Upload Files page rendered.
+2026-04-29 17:13:37,234 | INFO | No files selected on Upload Files page.
+2026-04-29 17:13:41,296 | INFO | Application page load started.
+2026-04-29 17:13:41,298 | INFO | Initializing pgVector schema.
+2026-04-29 17:13:41,321 | INFO | pgVector schema initialization completed.
+2026-04-29 17:13:41,322 | INFO | pgVector connection validated successfully.
+2026-04-29 17:13:41,335 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:13:41,336 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:13:41,341 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:13:41,343 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:13:41,349 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:13:41,351 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:13:41,369 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:13:41,370 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:13:41,373 | INFO | Page selected: Document Embed
+2026-04-29 17:13:41,373 | INFO | Upload Files page rendered.
+2026-04-29 17:13:43,219 | INFO | Application page load started.
+2026-04-29 17:13:43,223 | INFO | Initializing pgVector schema.
+2026-04-29 17:13:43,262 | INFO | pgVector schema initialization completed.
+2026-04-29 17:13:43,263 | INFO | pgVector connection validated successfully.
+2026-04-29 17:13:43,290 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:13:43,292 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:13:43,313 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:13:43,315 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:13:43,330 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:13:43,331 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:13:43,334 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:13:43,335 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:13:43,337 | INFO | Page selected: Document Embed
+2026-04-29 17:13:43,337 | INFO | Upload Files page rendered.
+2026-04-29 17:13:51,735 | INFO | Application page load started.
+2026-04-29 17:13:51,737 | INFO | Initializing pgVector schema.
+2026-04-29 17:13:51,771 | INFO | pgVector schema initialization completed.
+2026-04-29 17:13:51,772 | INFO | pgVector connection validated successfully.
+2026-04-29 17:13:51,797 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:13:51,798 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:13:51,821 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:13:51,822 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:13:51,852 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:13:51,852 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:13:51,856 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:13:51,858 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:13:51,859 | INFO | Page selected: Document Embed
+2026-04-29 17:13:51,859 | INFO | Upload Files page rendered.
+2026-04-29 17:13:51,863 | INFO | Extract and Store triggered for 1 uploaded file(s) using Qdrant & neo4j.
+2026-04-29 17:13:51,864 | INFO | Processing upload: peacock text - 2 table - 2 image.pdf
+2026-04-29 17:13:51,864 | INFO | Starting ingestion for file 'peacock text - 2 table - 2 image.pdf' with document_id=604872f3-6022-4459-a868-66cd082b8585 using Qdrant & neo4j.
+2026-04-29 17:13:51,865 | INFO | Dispatching extraction for file 'peacock text - 2 table - 2 image.pdf' with extension '.pdf'.
+2026-04-29 17:13:51,865 | INFO | Starting PDF extraction for 'peacock text - 2 table - 2 image.pdf'.
+2026-04-29 17:13:52,869 | INFO | Completed PDF extraction for 'peacock text - 2 table - 2 image.pdf': 9 chunks, 2 tables.
+2026-04-29 17:13:52,869 | INFO | Extraction completed for file 'peacock text - 2 table - 2 image.pdf': 9 chunks, 2 tables.
+2026-04-29 17:13:52,872 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:13:52,880 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:13:52,918 | INFO | Inserted 5 point(s) into Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:13:52,920 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:13:52,924 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:13:52,944 | INFO | Inserted 2 point(s) into Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:13:52,945 | INFO | Writing 2 extracted tables to Neo4j.
+2026-04-29 17:13:53,524 | INFO | Stored 2 tables in Neo4j.
+2026-04-29 17:13:53,524 | INFO | Ingestion finished for file 'peacock text - 2 table - 2 image.pdf': vector_store=Qdrant & neo4j, stored_chunks=7, stored_tables=2.
+2026-04-29 17:13:53,525 | INFO | Upload batch processing completed.
+2026-04-29 17:14:07,450 | INFO | Application page load started.
+2026-04-29 17:14:07,452 | INFO | Initializing pgVector schema.
+2026-04-29 17:14:07,479 | INFO | pgVector schema initialization completed.
+2026-04-29 17:14:07,480 | INFO | pgVector connection validated successfully.
+2026-04-29 17:14:07,500 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:14:07,500 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:14:07,506 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:14:07,507 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:14:07,534 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:14:07,535 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:14:07,539 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:14:07,540 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:14:07,541 | INFO | Page selected: Chat
+2026-04-29 17:14:07,542 | INFO | Conversation Chat page rendered.
+2026-04-29 17:14:07,595 | INFO | Saving interaction feedback for message_id=c04fca13-b4cb-417d-8dc1-24116059a8b0.
+2026-04-29 17:14:07,635 | INFO | Feedback saved for message_id=c04fca13-b4cb-417d-8dc1-24116059a8b0.
+2026-04-29 17:14:07,720 | INFO | Application page load started.
+2026-04-29 17:14:07,722 | INFO | Initializing pgVector schema.
+2026-04-29 17:14:07,767 | INFO | pgVector schema initialization completed.
+2026-04-29 17:14:07,767 | INFO | pgVector connection validated successfully.
+2026-04-29 17:14:07,779 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:14:07,780 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:14:07,784 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:14:07,786 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:14:07,791 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:14:07,792 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:14:07,812 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:14:07,813 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:14:07,815 | INFO | Page selected: Chat
+2026-04-29 17:14:07,815 | INFO | Conversation Chat page rendered.
+2026-04-29 17:14:10,252 | INFO | Application page load started.
+2026-04-29 17:14:10,258 | INFO | Initializing pgVector schema.
+2026-04-29 17:14:10,296 | INFO | pgVector schema initialization completed.
+2026-04-29 17:14:10,297 | INFO | pgVector connection validated successfully.
+2026-04-29 17:14:10,334 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:14:10,335 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:14:10,341 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:14:10,343 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:14:10,347 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:14:10,348 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:14:10,351 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:14:10,352 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:14:10,353 | INFO | Page selected: Chat
+2026-04-29 17:14:10,353 | INFO | Conversation Chat page rendered.
+2026-04-29 17:14:35,769 | INFO | Application page load started.
+2026-04-29 17:14:35,771 | INFO | Initializing pgVector schema.
+2026-04-29 17:14:35,804 | INFO | pgVector schema initialization completed.
+2026-04-29 17:14:35,805 | INFO | pgVector connection validated successfully.
+2026-04-29 17:14:35,816 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:14:35,817 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:14:35,836 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:14:35,837 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:14:35,841 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:14:35,842 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:14:35,867 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:14:35,868 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:14:35,869 | INFO | Page selected: Chat
+2026-04-29 17:14:35,870 | INFO | Conversation Chat page rendered.
+2026-04-29 17:14:35,872 | INFO | User submitted chat prompt.
+2026-04-29 17:14:35,876 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:14:35,877 | INFO | Query classified as out_of_scope.
+2026-04-29 17:14:35,877 | INFO | Selected query type 'out_of_scope'.
+2026-04-29 17:14:35,879 | INFO | Qdrant routed retrieval completed. query_type=out_of_scope paths=['none'] text=0 image=0 table=0.
+2026-04-29 17:14:52,365 | INFO | Application page load started.
+2026-04-29 17:14:52,369 | INFO | Initializing pgVector schema.
+2026-04-29 17:14:52,402 | INFO | pgVector schema initialization completed.
+2026-04-29 17:14:52,402 | INFO | pgVector connection validated successfully.
+2026-04-29 17:14:52,414 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:14:52,415 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:14:52,420 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:14:52,421 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:14:52,446 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:14:52,447 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:14:52,452 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:14:52,454 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:14:52,456 | INFO | Page selected: Chat
+2026-04-29 17:14:52,456 | INFO | Conversation Chat page rendered.
+2026-04-29 17:14:52,467 | INFO | User submitted chat prompt.
+2026-04-29 17:14:52,471 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:14:52,471 | INFO | Query classified as out_of_scope.
+2026-04-29 17:14:52,473 | INFO | Selected query type 'out_of_scope'.
+2026-04-29 17:14:52,473 | INFO | Qdrant routed retrieval completed. query_type=out_of_scope paths=['none'] text=0 image=0 table=0.
+2026-04-29 17:16:12,154 | INFO | Dispatching extraction for file 'peacock text - 2 table - 2 image.pdf' with extension '.pdf'.
+2026-04-29 17:16:12,154 | INFO | Starting PDF extraction for 'peacock text - 2 table - 2 image.pdf'.
+2026-04-29 17:16:12,570 | INFO | Completed PDF extraction for 'peacock text - 2 table - 2 image.pdf': 9 chunks, 2 tables.
+2026-04-29 17:16:13,989 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:16:13,989 | INFO | Query classified as out_of_scope.
+2026-04-29 17:16:13,989 | INFO | Selected query type 'out_of_scope'.
+2026-04-29 17:16:13,990 | INFO | Qdrant routed retrieval completed. query_type=out_of_scope paths=['none'] text=0 image=0 table=0.
+2026-04-29 17:16:26,356 | INFO | Query classified as out_of_scope.
+2026-04-29 17:16:27,945 | INFO | Query classified as out_of_scope.
+2026-04-29 17:16:27,946 | INFO | Selected query type 'out_of_scope'.
+2026-04-29 17:17:09,847 | INFO | Query classified as table_lookup.
+2026-04-29 17:17:11,440 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:17:11,440 | INFO | Query classified as table_lookup.
+2026-04-29 17:17:11,440 | INFO | Selected query type 'table_lookup'.
+2026-04-29 17:17:11,441 | INFO | Running Neo4j table search with 14 token(s).
+2026-04-29 17:17:11,572 | INFO | Neo4j table search returned 5 row(s).
+2026-04-29 17:17:11,572 | INFO | Qdrant routed retrieval completed. query_type=table_lookup paths=['neo4j_tables'] text=0 image=0 table=5.
+2026-04-29 17:17:45,185 | INFO | Query classified as text_qa.
+2026-04-29 17:17:46,645 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:17:46,646 | INFO | Query classified as text_qa.
+2026-04-29 17:17:46,646 | INFO | Selected query type 'text_qa'.
+2026-04-29 17:17:46,653 | INFO | Query classified as mixed_query.
+2026-04-29 17:17:46,653 | INFO | Selected query type 'mixed_query'.
+2026-04-29 17:17:46,654 | INFO | Query classified as table_lookup.
+2026-04-29 17:17:46,654 | INFO | Selected query type 'table_lookup'.
+2026-04-29 17:17:46,654 | INFO | Query classified as table_lookup.
+2026-04-29 17:17:46,655 | INFO | Query classified as table_lookup.
+2026-04-29 17:17:46,655 | INFO | Selected query type 'table_lookup'.
+2026-04-29 17:17:46,655 | INFO | Query classified as text_qa.
+2026-04-29 17:17:46,655 | INFO | Query classified as text_qa.
+2026-04-29 17:17:46,656 | INFO | Selected query type 'text_qa'.
+2026-04-29 17:17:46,658 | INFO | Query classified as troubleshooting.
+2026-04-29 17:17:46,658 | INFO | Selected query type 'troubleshooting'.
+2026-04-29 17:17:46,687 | INFO | Qdrant similarity search returned 5 row(s) from 'smartcoolant_text'.
+2026-04-29 17:17:46,701 | INFO | Qdrant keyword search returned 5 row(s) from 'smartcoolant_text'.
+2026-04-29 17:17:46,702 | INFO | Qdrant routed retrieval completed. query_type=text_qa paths=['smartcoolant_text'] text=5 image=0 table=0.
+2026-04-29 17:19:37,069 | INFO | Application page load started.
+2026-04-29 17:19:37,629 | INFO | Initializing pgVector schema.
+2026-04-29 17:19:37,689 | INFO | pgVector schema initialization completed.
+2026-04-29 17:19:37,690 | INFO | pgVector connection validated successfully.
+2026-04-29 17:19:37,706 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:19:37,707 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:19:37,716 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:19:37,719 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:19:37,742 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:19:37,743 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:19:37,747 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:19:37,748 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:19:37,750 | INFO | Page selected: Chat
+2026-04-29 17:19:37,751 | INFO | Conversation Chat page rendered.
+2026-04-29 17:19:44,764 | INFO | Application page load started.
+2026-04-29 17:19:44,766 | INFO | Initializing pgVector schema.
+2026-04-29 17:19:44,802 | INFO | pgVector schema initialization completed.
+2026-04-29 17:19:44,803 | INFO | pgVector connection validated successfully.
+2026-04-29 17:19:44,831 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:19:44,833 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:19:44,854 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:19:44,856 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:19:44,860 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:19:44,862 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:19:44,865 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:19:44,866 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:19:44,867 | INFO | Page selected: Chat
+2026-04-29 17:19:44,868 | INFO | Conversation Chat page rendered.
+2026-04-29 17:19:44,873 | INFO | User submitted chat prompt.
+2026-04-29 17:19:44,877 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:19:44,878 | INFO | Query classified as text_qa.
+2026-04-29 17:19:44,878 | INFO | Selected query type 'text_qa'.
+2026-04-29 17:19:44,895 | INFO | Qdrant similarity search returned 5 row(s) from 'smartcoolant_text'.
+2026-04-29 17:19:44,906 | INFO | Qdrant keyword search returned 5 row(s) from 'smartcoolant_text'.
+2026-04-29 17:19:44,906 | INFO | Qdrant routed retrieval completed. query_type=text_qa paths=['smartcoolant_text'] text=5 image=0 table=0.
+2026-04-29 17:19:45,279 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:19:50,485 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:19:53,466 | INFO | Application page load started.
+2026-04-29 17:19:53,468 | INFO | Initializing pgVector schema.
+2026-04-29 17:19:53,506 | INFO | pgVector schema initialization completed.
+2026-04-29 17:19:53,507 | INFO | pgVector connection validated successfully.
+2026-04-29 17:19:53,523 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:19:53,525 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:19:53,530 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:19:53,532 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:19:53,537 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:19:53,538 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:19:53,563 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:19:53,564 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:19:53,566 | INFO | Page selected: Chat
+2026-04-29 17:19:53,566 | INFO | Conversation Chat page rendered.
+2026-04-29 17:19:53,577 | INFO | Saving interaction feedback for message_id=93bd6325-2347-46b3-9254-95b561a205ce.
+2026-04-29 17:19:53,602 | INFO | Feedback saved for message_id=93bd6325-2347-46b3-9254-95b561a205ce.
+2026-04-29 17:19:53,690 | INFO | Application page load started.
+2026-04-29 17:19:53,692 | INFO | Initializing pgVector schema.
+2026-04-29 17:19:53,733 | INFO | pgVector schema initialization completed.
+2026-04-29 17:19:53,734 | INFO | pgVector connection validated successfully.
+2026-04-29 17:19:53,767 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:19:53,768 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:19:53,800 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:19:53,809 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:19:53,819 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:19:53,820 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:19:53,825 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:19:53,827 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:19:53,828 | INFO | Page selected: Chat
+2026-04-29 17:19:53,829 | INFO | Conversation Chat page rendered.
+2026-04-29 17:20:09,191 | INFO | Application page load started.
+2026-04-29 17:20:09,193 | INFO | Initializing pgVector schema.
+2026-04-29 17:20:09,216 | INFO | pgVector schema initialization completed.
+2026-04-29 17:20:09,217 | INFO | pgVector connection validated successfully.
+2026-04-29 17:20:09,248 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:20:09,250 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:20:09,280 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:20:09,285 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:20:09,305 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:20:09,306 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:20:09,312 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:20:09,313 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:20:09,315 | INFO | Page selected: Chat
+2026-04-29 17:20:09,315 | INFO | Conversation Chat page rendered.
+2026-04-29 17:20:09,319 | INFO | User submitted chat prompt.
+2026-04-29 17:20:09,324 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:20:09,325 | INFO | Query classified as table_lookup.
+2026-04-29 17:20:09,325 | INFO | Selected query type 'table_lookup'.
+2026-04-29 17:20:09,329 | INFO | Running Neo4j table search with 16 token(s).
+2026-04-29 17:20:09,345 | INFO | Neo4j table search returned 5 row(s).
+2026-04-29 17:20:09,347 | INFO | Qdrant routed retrieval completed. query_type=table_lookup paths=['neo4j_tables'] text=0 image=0 table=5.
+2026-04-29 17:20:09,639 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:20:12,544 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:20:22,075 | INFO | Application page load started.
+2026-04-29 17:20:22,076 | INFO | Initializing pgVector schema.
+2026-04-29 17:20:22,109 | INFO | pgVector schema initialization completed.
+2026-04-29 17:20:22,110 | INFO | pgVector connection validated successfully.
+2026-04-29 17:20:22,120 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:20:22,123 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:20:22,146 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:20:22,148 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:20:22,152 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:20:22,154 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:20:22,158 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:20:22,159 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:20:22,160 | INFO | Page selected: Chat
+2026-04-29 17:20:22,160 | INFO | Conversation Chat page rendered.
+2026-04-29 17:20:22,175 | INFO | User submitted chat prompt.
+2026-04-29 17:20:22,179 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:20:22,180 | INFO | Query classified as table_lookup.
+2026-04-29 17:20:22,180 | INFO | Selected query type 'table_lookup'.
+2026-04-29 17:20:22,183 | INFO | Running Neo4j table search with 10 token(s).
+2026-04-29 17:20:22,295 | INFO | Neo4j table search returned 3 row(s).
+2026-04-29 17:20:22,296 | INFO | Qdrant routed retrieval completed. query_type=table_lookup paths=['neo4j_tables'] text=0 image=0 table=3.
+2026-04-29 17:20:22,571 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:20:24,845 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:20:39,713 | INFO | Application page load started.
+2026-04-29 17:20:39,715 | INFO | Initializing pgVector schema.
+2026-04-29 17:20:39,738 | INFO | pgVector schema initialization completed.
+2026-04-29 17:20:39,739 | INFO | pgVector connection validated successfully.
+2026-04-29 17:20:39,765 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:20:39,767 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:20:39,790 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:20:39,792 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:20:39,806 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:20:39,808 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:20:39,816 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:20:39,817 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:20:39,818 | INFO | Page selected: Chat
+2026-04-29 17:20:39,819 | INFO | Conversation Chat page rendered.
+2026-04-29 17:20:39,848 | INFO | User submitted chat prompt.
+2026-04-29 17:20:39,853 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:20:39,853 | INFO | Query classified as table_lookup.
+2026-04-29 17:20:39,854 | INFO | Selected query type 'table_lookup'.
+2026-04-29 17:20:39,856 | INFO | Running Neo4j table search with 16 token(s).
+2026-04-29 17:20:39,871 | INFO | Neo4j table search returned 5 row(s).
+2026-04-29 17:20:39,872 | INFO | Qdrant routed retrieval completed. query_type=table_lookup paths=['neo4j_tables'] text=0 image=0 table=5.
+2026-04-29 17:20:40,217 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:20:44,010 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:20:52,342 | INFO | Application page load started.
+2026-04-29 17:20:52,345 | INFO | Initializing pgVector schema.
+2026-04-29 17:20:52,368 | INFO | pgVector schema initialization completed.
+2026-04-29 17:20:52,369 | INFO | pgVector connection validated successfully.
+2026-04-29 17:20:52,400 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:20:52,403 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:20:52,408 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:20:52,410 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:20:52,414 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:20:52,416 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:20:52,421 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:20:52,423 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:20:52,425 | INFO | Page selected: Chat
+2026-04-29 17:20:52,425 | INFO | Conversation Chat page rendered.
+2026-04-29 17:20:52,477 | INFO | Saving interaction feedback for message_id=998db4a7-b236-4de6-be9e-ce243a9e50f1.
+2026-04-29 17:20:52,500 | INFO | Feedback saved for message_id=998db4a7-b236-4de6-be9e-ce243a9e50f1.
+2026-04-29 17:20:52,591 | INFO | Application page load started.
+2026-04-29 17:20:52,594 | INFO | Initializing pgVector schema.
+2026-04-29 17:20:52,633 | INFO | pgVector schema initialization completed.
+2026-04-29 17:20:52,633 | INFO | pgVector connection validated successfully.
+2026-04-29 17:20:52,648 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:20:52,649 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:20:52,672 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:20:52,674 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:20:52,679 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:20:52,680 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:20:52,686 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:20:52,688 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:20:52,689 | INFO | Page selected: Chat
+2026-04-29 17:20:52,689 | INFO | Conversation Chat page rendered.
+2026-04-29 17:21:02,553 | INFO | Application page load started.
+2026-04-29 17:21:02,555 | INFO | Initializing pgVector schema.
+2026-04-29 17:21:02,585 | INFO | pgVector schema initialization completed.
+2026-04-29 17:21:02,587 | INFO | pgVector connection validated successfully.
+2026-04-29 17:21:02,598 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:21:02,601 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:21:02,620 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:21:02,622 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:21:02,650 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:21:02,651 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:21:02,655 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:21:02,656 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:21:02,658 | INFO | Page selected: Chat
+2026-04-29 17:21:02,658 | INFO | Conversation Chat page rendered.
+2026-04-29 17:21:02,661 | INFO | User submitted chat prompt.
+2026-04-29 17:21:02,665 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:21:02,665 | INFO | Query classified as image_request.
+2026-04-29 17:21:02,666 | INFO | Selected query type 'image_request'.
+2026-04-29 17:21:02,685 | INFO | Qdrant similarity search returned 2 row(s) from 'smartcoolant_images'.
+2026-04-29 17:21:02,685 | INFO | Qdrant routed retrieval completed. query_type=image_request paths=['smartcoolant_images'] text=0 image=2 table=0.
+2026-04-29 17:21:02,945 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:21:05,079 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:21:18,976 | INFO | Application page load started.
+2026-04-29 17:21:18,980 | INFO | Initializing pgVector schema.
+2026-04-29 17:21:19,020 | INFO | pgVector schema initialization completed.
+2026-04-29 17:21:19,020 | INFO | pgVector connection validated successfully.
+2026-04-29 17:21:19,033 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:21:19,035 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:21:19,039 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:21:19,040 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:21:19,044 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:21:19,044 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:21:19,049 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:21:19,051 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:21:19,052 | INFO | Page selected: Chat
+2026-04-29 17:21:19,053 | INFO | Conversation Chat page rendered.
+2026-04-29 17:21:19,113 | INFO | Saving interaction feedback for message_id=486e3845-f318-41f8-8e05-060e5ffe5076.
+2026-04-29 17:21:19,136 | INFO | Feedback saved for message_id=486e3845-f318-41f8-8e05-060e5ffe5076.
+2026-04-29 17:21:19,225 | INFO | Application page load started.
+2026-04-29 17:21:19,227 | INFO | Initializing pgVector schema.
+2026-04-29 17:21:19,249 | INFO | pgVector schema initialization completed.
+2026-04-29 17:21:19,251 | INFO | pgVector connection validated successfully.
+2026-04-29 17:21:19,262 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:21:19,264 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:21:19,291 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:21:19,293 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:21:19,307 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:21:19,308 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:21:19,312 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:21:19,313 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:21:19,315 | INFO | Page selected: Chat
+2026-04-29 17:21:19,315 | INFO | Conversation Chat page rendered.
+2026-04-29 17:21:22,962 | INFO | Application page load started.
+2026-04-29 17:21:22,965 | INFO | Initializing pgVector schema.
+2026-04-29 17:21:23,023 | INFO | pgVector schema initialization completed.
+2026-04-29 17:21:23,024 | INFO | pgVector connection validated successfully.
+2026-04-29 17:21:23,046 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:21:23,048 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:21:23,072 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:21:23,073 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:21:23,077 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:21:23,078 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:21:23,082 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:21:23,083 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:21:23,084 | INFO | Page selected: Chat
+2026-04-29 17:21:23,084 | INFO | Conversation Chat page rendered.
+2026-04-29 17:21:23,088 | INFO | User submitted chat prompt.
+2026-04-29 17:21:23,091 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:21:23,091 | INFO | Query classified as image_request.
+2026-04-29 17:21:23,092 | INFO | Selected query type 'image_request'.
+2026-04-29 17:21:23,122 | INFO | Qdrant similarity search returned 2 row(s) from 'smartcoolant_images'.
+2026-04-29 17:21:23,122 | INFO | Qdrant routed retrieval completed. query_type=image_request paths=['smartcoolant_images'] text=0 image=2 table=0.
+2026-04-29 17:21:23,385 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:21:25,811 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:21:54,367 | INFO | Application page load started.
+2026-04-29 17:21:54,369 | INFO | Initializing pgVector schema.
+2026-04-29 17:21:54,391 | INFO | pgVector schema initialization completed.
+2026-04-29 17:21:54,392 | INFO | pgVector connection validated successfully.
+2026-04-29 17:21:54,429 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:21:54,431 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:21:54,454 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:21:54,455 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:21:54,469 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:21:54,470 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:21:54,473 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:21:54,474 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:21:54,475 | INFO | Page selected: Chat
+2026-04-29 17:21:54,476 | INFO | Conversation Chat page rendered.
+2026-04-29 17:21:54,537 | INFO | Saving interaction feedback for message_id=1359aa99-823f-4622-bbd5-103b8936a85b.
+2026-04-29 17:21:54,583 | INFO | Feedback saved for message_id=1359aa99-823f-4622-bbd5-103b8936a85b.
+2026-04-29 17:21:54,671 | INFO | Application page load started.
+2026-04-29 17:21:54,673 | INFO | Initializing pgVector schema.
+2026-04-29 17:21:54,697 | INFO | pgVector schema initialization completed.
+2026-04-29 17:21:54,699 | INFO | pgVector connection validated successfully.
+2026-04-29 17:21:54,714 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:21:54,715 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:21:54,720 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:21:54,721 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:21:54,724 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:21:54,725 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:21:54,731 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:21:54,731 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:21:54,733 | INFO | Page selected: Chat
+2026-04-29 17:21:54,733 | INFO | Conversation Chat page rendered.
+2026-04-29 17:21:56,154 | INFO | Application page load started.
+2026-04-29 17:21:56,156 | INFO | Initializing pgVector schema.
+2026-04-29 17:21:56,188 | INFO | pgVector schema initialization completed.
+2026-04-29 17:21:56,189 | INFO | pgVector connection validated successfully.
+2026-04-29 17:21:56,201 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:21:56,202 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:21:56,207 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:21:56,209 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:21:56,214 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:21:56,215 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:21:56,218 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:21:56,219 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:21:56,220 | INFO | Page selected: Chat
+2026-04-29 17:21:56,220 | INFO | Conversation Chat page rendered.
+2026-04-29 17:21:56,224 | INFO | User submitted chat prompt.
+2026-04-29 17:21:56,228 | INFO | Conversation retrieval started using Qdrant & neo4j.
+2026-04-29 17:21:56,228 | INFO | Query classified as image_request.
+2026-04-29 17:21:56,229 | INFO | Selected query type 'image_request'.
+2026-04-29 17:21:56,238 | INFO | Qdrant similarity search returned 2 row(s) from 'smartcoolant_images'.
+2026-04-29 17:21:56,238 | INFO | Qdrant routed retrieval completed. query_type=image_request paths=['smartcoolant_images'] text=0 image=2 table=0.
+2026-04-29 17:21:56,485 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:21:58,714 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:43:19,384 | INFO | Application page load started.
+2026-04-29 17:43:19,387 | INFO | Initializing pgVector schema.
+2026-04-29 17:43:19,416 | INFO | pgVector schema initialization completed.
+2026-04-29 17:43:19,417 | INFO | pgVector connection validated successfully.
+2026-04-29 17:43:19,433 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:43:19,435 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:43:19,459 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:43:19,461 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:43:19,466 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:43:19,467 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:43:19,471 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:43:19,472 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:43:19,474 | INFO | Page selected: Document Embed
+2026-04-29 17:43:19,475 | INFO | Upload Files page rendered.
+2026-04-29 17:43:19,479 | INFO | No files selected on Upload Files page.
+2026-04-29 17:43:36,217 | INFO | Application page load started.
+2026-04-29 17:43:36,219 | INFO | Initializing pgVector schema.
+2026-04-29 17:43:36,244 | INFO | pgVector schema initialization completed.
+2026-04-29 17:43:36,245 | INFO | pgVector connection validated successfully.
+2026-04-29 17:43:36,263 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:43:36,264 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:43:36,267 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:43:36,269 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:43:36,275 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:43:36,276 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:43:36,280 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:43:36,281 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:43:36,282 | INFO | Page selected: Document Embed
+2026-04-29 17:43:36,282 | INFO | Upload Files page rendered.
+2026-04-29 17:43:36,286 | INFO | No files selected on Upload Files page.
+2026-04-29 17:43:41,343 | INFO | Application page load started.
+2026-04-29 17:43:41,346 | INFO | Initializing pgVector schema.
+2026-04-29 17:43:41,390 | INFO | pgVector schema initialization completed.
+2026-04-29 17:43:41,391 | INFO | pgVector connection validated successfully.
+2026-04-29 17:43:41,401 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:43:41,403 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:43:41,408 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:43:41,410 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:43:41,414 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:43:41,415 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:43:41,419 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:43:41,420 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:43:41,422 | INFO | Page selected: Document Embed
+2026-04-29 17:43:41,422 | INFO | Upload Files page rendered.
+2026-04-29 17:43:43,997 | INFO | Application page load started.
+2026-04-29 17:43:43,999 | INFO | Initializing pgVector schema.
+2026-04-29 17:43:44,033 | INFO | pgVector schema initialization completed.
+2026-04-29 17:43:44,034 | INFO | pgVector connection validated successfully.
+2026-04-29 17:43:44,046 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:43:44,047 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:43:44,074 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:43:44,076 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:43:44,081 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:43:44,081 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:43:44,085 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:43:44,087 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:43:44,088 | INFO | Page selected: Document Embed
+2026-04-29 17:43:44,089 | INFO | Upload Files page rendered.
+2026-04-29 17:43:44,093 | INFO | Extract and Store triggered for 1 uploaded file(s) using pgVector & neo4j.
+2026-04-29 17:43:44,093 | INFO | Processing upload: test data with text table images.pptx
+2026-04-29 17:43:44,094 | INFO | Starting ingestion for file 'test data with text table images.pptx' with document_id=95f74ef6-0c4e-4044-b3f1-7e4f284c0f79 using pgVector & neo4j.
+2026-04-29 17:43:44,094 | INFO | Dispatching extraction for file 'test data with text table images.pptx' with extension '.pptx'.
+2026-04-29 17:43:44,094 | INFO | Starting PPTX extraction for 'test data with text table images.pptx'.
+2026-04-29 17:43:44,159 | INFO | Completed PPTX extraction for 'test data with text table images.pptx': 11 chunks, 0 tables.
+2026-04-29 17:43:44,159 | INFO | Extraction completed for file 'test data with text table images.pptx': 11 chunks, 0 tables.
+2026-04-29 17:43:44,172 | INFO | Generated 11 embeddings for file 'test data with text table images.pptx'.
+2026-04-29 17:43:44,173 | INFO | Preparing 11 chunk record(s) for document_id=95f74ef6-0c4e-4044-b3f1-7e4f284c0f79.
+2026-04-29 17:43:44,238 | INFO | Inserted 11 chunk record(s) for document_id=95f74ef6-0c4e-4044-b3f1-7e4f284c0f79.
+2026-04-29 17:43:44,259 | INFO | No tables found for Neo4j storage.
+2026-04-29 17:43:44,259 | INFO | Ingestion finished for file 'test data with text table images.pptx': vector_store=pgVector & neo4j, stored_chunks=11, stored_tables=0.
+2026-04-29 17:43:44,260 | INFO | Upload batch processing completed.
+2026-04-29 17:44:15,425 | INFO | Application page load started.
+2026-04-29 17:44:15,426 | INFO | Initializing pgVector schema.
+2026-04-29 17:44:15,447 | INFO | pgVector schema initialization completed.
+2026-04-29 17:44:15,449 | INFO | pgVector connection validated successfully.
+2026-04-29 17:44:15,466 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:44:15,468 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:44:15,473 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:44:15,475 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:44:15,483 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:44:15,484 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:44:15,488 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:44:15,489 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:44:15,491 | INFO | Page selected: Document Embed
+2026-04-29 17:44:15,491 | INFO | Upload Files page rendered.
+2026-04-29 17:44:15,494 | INFO | No files selected on Upload Files page.
+2026-04-29 17:44:17,507 | INFO | Application page load started.
+2026-04-29 17:44:17,509 | INFO | Initializing pgVector schema.
+2026-04-29 17:44:17,549 | INFO | pgVector schema initialization completed.
+2026-04-29 17:44:17,550 | INFO | pgVector connection validated successfully.
+2026-04-29 17:44:17,583 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:44:17,584 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:44:17,589 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:44:17,590 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:44:17,594 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:44:17,594 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:44:17,599 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:44:17,600 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:44:17,601 | INFO | Page selected: Chat
+2026-04-29 17:44:17,602 | INFO | Conversation Chat page rendered.
+2026-04-29 17:44:24,804 | INFO | Application page load started.
+2026-04-29 17:44:24,806 | INFO | Initializing pgVector schema.
+2026-04-29 17:44:24,836 | INFO | pgVector schema initialization completed.
+2026-04-29 17:44:24,837 | INFO | pgVector connection validated successfully.
+2026-04-29 17:44:24,893 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:44:24,896 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:44:24,925 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:44:24,926 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:44:24,956 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:44:24,957 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:44:24,971 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:44:24,972 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:44:24,974 | INFO | Page selected: Chat
+2026-04-29 17:44:24,974 | INFO | Conversation Chat page rendered.
+2026-04-29 17:44:24,977 | INFO | User submitted chat prompt.
+2026-04-29 17:44:24,981 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 17:44:24,985 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 17:44:24,988 | INFO | Running keyword search on pgVector chunks with 6 token(s).
+2026-04-29 17:44:24,995 | INFO | Running Neo4j table search with 6 token(s).
+2026-04-29 17:44:25,019 | INFO | pgVector similarity search returned 8 row(s).
+2026-04-29 17:44:25,020 | INFO | Keyword search returned 6 row(s).
+2026-04-29 17:44:25,198 | INFO | Neo4j table search returned 0 row(s).
+2026-04-29 17:44:25,200 | INFO | Conversation retrieval completed with 1 vector result(s) and 0 graph result(s).
+2026-04-29 17:44:25,549 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:44:28,832 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:44:32,104 | INFO | Application page load started.
+2026-04-29 17:44:32,106 | INFO | Initializing pgVector schema.
+2026-04-29 17:44:32,143 | INFO | pgVector schema initialization completed.
+2026-04-29 17:44:32,143 | INFO | pgVector connection validated successfully.
+2026-04-29 17:44:32,160 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:44:32,161 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:44:32,190 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:44:32,191 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:44:32,195 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:44:32,197 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:44:32,200 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:44:32,201 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:44:32,202 | INFO | Page selected: Chat
+2026-04-29 17:44:32,202 | INFO | Conversation Chat page rendered.
+2026-04-29 17:44:32,210 | INFO | Saving interaction feedback for message_id=260c5c19-9e10-436b-9f1a-84dfe7054f6d.
+2026-04-29 17:44:32,235 | INFO | Feedback saved for message_id=260c5c19-9e10-436b-9f1a-84dfe7054f6d.
+2026-04-29 17:44:32,327 | INFO | Application page load started.
+2026-04-29 17:44:32,329 | INFO | Initializing pgVector schema.
+2026-04-29 17:44:32,352 | INFO | pgVector schema initialization completed.
+2026-04-29 17:44:32,353 | INFO | pgVector connection validated successfully.
+2026-04-29 17:44:32,367 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:44:32,369 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:44:32,373 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:44:32,375 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:44:32,379 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:44:32,380 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:44:32,385 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:44:32,386 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:44:32,388 | INFO | Page selected: Chat
+2026-04-29 17:44:32,388 | INFO | Conversation Chat page rendered.
+2026-04-29 17:45:00,532 | INFO | Application page load started.
+2026-04-29 17:45:00,534 | INFO | Initializing pgVector schema.
+2026-04-29 17:45:00,565 | INFO | pgVector schema initialization completed.
+2026-04-29 17:45:00,567 | INFO | pgVector connection validated successfully.
+2026-04-29 17:45:00,580 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:45:00,581 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:45:00,604 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:45:00,606 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:45:00,611 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:45:00,612 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:45:00,616 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:45:00,617 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:45:00,619 | INFO | Page selected: Chat
+2026-04-29 17:45:00,619 | INFO | Conversation Chat page rendered.
+2026-04-29 17:45:00,622 | INFO | User submitted chat prompt.
+2026-04-29 17:45:00,627 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 17:45:00,630 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 17:45:00,634 | INFO | Running keyword search on pgVector chunks with 10 token(s).
+2026-04-29 17:45:00,640 | INFO | Running Neo4j table search with 10 token(s).
+2026-04-29 17:45:00,657 | INFO | Neo4j table search returned 0 row(s).
+2026-04-29 17:45:00,664 | INFO | pgVector similarity search returned 8 row(s).
+2026-04-29 17:45:00,666 | INFO | Keyword search returned 7 row(s).
+2026-04-29 17:45:00,667 | INFO | Conversation retrieval completed with 5 vector result(s) and 0 graph result(s).
+2026-04-29 17:45:00,951 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:45:07,505 | INFO | Streamed OpenAI response completed successfully.
+2026-04-29 17:45:10,231 | INFO | Application page load started.
+2026-04-29 17:45:10,233 | INFO | Initializing pgVector schema.
+2026-04-29 17:45:10,269 | INFO | pgVector schema initialization completed.
+2026-04-29 17:45:10,269 | INFO | pgVector connection validated successfully.
+2026-04-29 17:45:10,281 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:45:10,282 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:45:10,297 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:45:10,299 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:45:10,314 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:45:10,315 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:45:10,318 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:45:10,318 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:45:10,320 | INFO | Page selected: Chat
+2026-04-29 17:45:10,320 | INFO | Conversation Chat page rendered.
+2026-04-29 17:45:10,330 | INFO | Saving interaction feedback for message_id=fd9c018c-2e08-48c7-8e3a-7165c4ac7220.
+2026-04-29 17:45:10,353 | INFO | Feedback saved for message_id=fd9c018c-2e08-48c7-8e3a-7165c4ac7220.
+2026-04-29 17:45:10,431 | INFO | Application page load started.
+2026-04-29 17:45:10,433 | INFO | Initializing pgVector schema.
+2026-04-29 17:45:10,457 | INFO | pgVector schema initialization completed.
+2026-04-29 17:45:10,458 | INFO | pgVector connection validated successfully.
+2026-04-29 17:45:10,491 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:45:10,494 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:45:10,514 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:45:10,517 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:45:10,521 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:45:10,522 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:45:10,527 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:45:10,529 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:45:10,530 | INFO | Page selected: Chat
+2026-04-29 17:45:10,531 | INFO | Conversation Chat page rendered.
+2026-04-29 17:45:24,193 | INFO | Application page load started.
+2026-04-29 17:45:24,194 | INFO | Initializing pgVector schema.
+2026-04-29 17:45:24,226 | INFO | pgVector schema initialization completed.
+2026-04-29 17:45:24,226 | INFO | pgVector connection validated successfully.
+2026-04-29 17:45:24,238 | INFO | Neo4j connection validated successfully.
+2026-04-29 17:45:24,240 | INFO | Checking Qdrant connectivity at http://127.0.0.1:6333.
+2026-04-29 17:45:24,246 | INFO | Qdrant connectivity check completed.
+2026-04-29 17:45:24,247 | INFO | Initializing Qdrant collection 'smartcoolant_text'.
+2026-04-29 17:45:24,251 | INFO | Qdrant collection 'smartcoolant_text' already exists.
+2026-04-29 17:45:24,252 | INFO | Initializing Qdrant collection 'smartcoolant_images'.
+2026-04-29 17:45:24,256 | INFO | Qdrant collection 'smartcoolant_images' already exists.
+2026-04-29 17:45:24,257 | INFO | Qdrant connection validated successfully.
+2026-04-29 17:45:24,259 | INFO | Page selected: Chat
+2026-04-29 17:45:24,259 | INFO | Conversation Chat page rendered.
+2026-04-29 17:45:24,262 | INFO | User submitted chat prompt.
+2026-04-29 17:45:24,266 | INFO | Conversation retrieval started using pgVector & neo4j.
+2026-04-29 17:45:24,270 | INFO | Running pgVector similarity search with limit=8.
+2026-04-29 17:45:24,273 | INFO | Running keyword search on pgVector chunks with 8 token(s).
+2026-04-29 17:45:24,283 | INFO | Running Neo4j table search with 8 token(s).
+2026-04-29 17:45:24,295 | INFO | Neo4j table search returned 0 row(s).
+2026-04-29 17:45:24,301 | INFO | pgVector similarity search returned 8 row(s).
+2026-04-29 17:45:24,304 | INFO | Keyword search returned 8 row(s).
+2026-04-29 17:45:24,306 | INFO | Conversation retrieval completed with 7 vector result(s) and 0 graph result(s).
+2026-04-29 17:45:24,585 | INFO | Requesting streamed OpenAI response with model 'gpt-4.1-mini'.
+2026-04-29 17:45:27,366 | INFO | Streamed OpenAI response completed successfully.
