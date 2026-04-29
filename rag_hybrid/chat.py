@@ -38,6 +38,20 @@ STOP_TOKENS = {
 }
 COUNT_QUERY_TOKENS = {"count", "counts", "number", "numbers", "total", "totals"}
 INCHARGE_QUERY_TOKENS = {"incharge", "incharges", "owner", "owners", "responsible", "manager", "managers"}
+TABLE_INTENT_TOKENS = {
+    "available",
+    "availability",
+    "country",
+    "countries",
+    "countrywise",
+    "list",
+    "age",
+    "stage",
+    "row",
+    "column",
+    *COUNT_QUERY_TOKENS,
+    *INCHARGE_QUERY_TOKENS,
+}
 
 
 def _query_tokens(prompt: str) -> tuple[list[str], list[str]]:
@@ -135,10 +149,14 @@ def _filter_graph_results(prompt: str, results: list[GraphSearchResult]) -> list
         if table_level_match and not numeric_tokens:
             filtered.append(item)
 
+    subject_tokens = [token for token in query_words if token not in TABLE_INTENT_TOKENS]
+    if subject_tokens and not is_incharge_query and any(_table_contains_any(item, subject_tokens) for item in filtered):
+        filtered = [item for item in filtered if _table_contains_any(item, subject_tokens)]
+
     if is_count_query and not is_incharge_query and any(_table_has_count_measure(item) for item in filtered):
         filtered = [item for item in filtered if _table_has_count_measure(item)]
 
-    return filtered
+    return _dedupe_graph_results(filtered)
 
 
 def _table_has_count_measure(item: GraphSearchResult) -> bool:
@@ -147,12 +165,44 @@ def _table_has_count_measure(item: GraphSearchResult) -> bool:
     return bool(header_tokens & COUNT_QUERY_TOKENS)
 
 
+def _table_contains_any(item: GraphSearchResult, tokens: list[str]) -> bool:
+    table_text = " ".join(
+        [
+            item.section,
+            item.summary,
+            " ".join(item.headers),
+            " ".join(" ".join(row) for row in item.rows),
+        ]
+    ).lower()
+    normalized_tokens = []
+    for token in tokens:
+        normalized_tokens.append(token)
+        if token.endswith("s") and len(token) > 3:
+            normalized_tokens.append(token[:-1])
+    return any(token in table_text for token in normalized_tokens)
+
+
+def _dedupe_graph_results(results: list[GraphSearchResult]) -> list[GraphSearchResult]:
+    deduped: list[GraphSearchResult] = []
+    seen: set[tuple[str, str, str]] = set()
+    for item in results:
+        key = (item.source, item.section, "|".join(item.headers))
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+    return deduped
+
+
 def retrieve_chat_context(prompt: str, sources: list[str] | None = None, vector_store: str = "pgVector") -> dict[str, object]:
     logger.info("Conversation retrieval started using %s.", vector_store)
     if _vector_backend(vector_store) == "Qdrant":
         routed_result = retrieve(prompt, sources)
         vector_results = [_retrieval_item_to_chunk(item) for item in routed_result.text_results + routed_result.image_results]
-        graph_results = [_retrieval_item_to_graph(item) for item in routed_result.table_results]
+        graph_results = _filter_graph_results(
+            prompt,
+            [_retrieval_item_to_graph(item) for item in routed_result.table_results],
+        )
         logger.info(
             "Qdrant routed retrieval completed. query_type=%s paths=%s text=%s image=%s table=%s.",
             routed_result.query_type,

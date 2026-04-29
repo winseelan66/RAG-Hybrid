@@ -9,10 +9,11 @@ from rag_hybrid.config import get_settings
 from rag_hybrid.models import GraphSearchResult, SearchChunkResult
 
 logger = get_logger()
+FALLBACK_RESPONSE = "Contact Tele Service Engineers for more detail"
 
 
 def _no_evidence_response(prompt: str) -> str:
-    return f"I could not find matching information in the uploaded documents for: {prompt}"
+    return FALLBACK_RESPONSE
 
 
 def _format_table_for_context(rows: list[list[str]]) -> str:
@@ -106,7 +107,7 @@ def generate_answer(
                     f"{settings.openai.system_prompt} "
                     "When the retrieved context contains table rows and the user asks for a list, states, names, populations, or tabular data, "
                     "return the answer as a markdown table using the retrieved rows. "
-                    "Do not use outside knowledge. If the context does not contain an exact matching entity, id, or fact for the question, say it was not found in the uploaded documents."
+                    f"Do not use outside knowledge. If the context does not contain an exact matching entity, id, or fact for the question, say: {FALLBACK_RESPONSE}."
                 ),
             },
             {
@@ -160,7 +161,7 @@ def stream_answer(
                     f"{settings.openai.system_prompt} "
                     "When the retrieved context contains table rows and the user asks for a list, states, names, populations, or tabular data, "
                     "return the answer as a markdown table using the retrieved rows. "
-                    "Do not use outside knowledge. If the context does not contain an exact matching entity, id, or fact for the question, say it was not found in the uploaded documents."
+                    f"Do not use outside knowledge. If the context does not contain an exact matching entity, id, or fact for the question, say: {FALLBACK_RESPONSE}."
                 ),
             },
             {

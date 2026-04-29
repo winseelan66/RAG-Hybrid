@@ -18,10 +18,44 @@ class QueryType(StrEnum):
 
 
 IMAGE_TERMS = {"show", "display", "image", "picture", "diagram", "map", "photo"}
-TABLE_TERMS = {"table", "register", "address", "parameter", "value", "specification", "specifications", "age", "stage", "row", "column"}
+TABLE_TERMS = {
+    "table",
+    "register",
+    "address",
+    "parameter",
+    "value",
+    "specification",
+    "specifications",
+    "age",
+    "stage",
+    "row",
+    "column",
+    "country",
+    "countries",
+    "count",
+    "counts",
+    "available",
+    "availability",
+    "list",
+}
 TROUBLESHOOTING_TERMS = {"not working", "error", "failure", "troubleshoot", "how to fix", "not connecting"}
 TEXT_TERMS = {"explain", "what", "how", "why", "tell"}
-DOMAIN_TERMS = {"coolant", "machine", "modbus", "register", "portugal", "network", "dimension", "map", "table", "document"}
+DOMAIN_TERMS = {
+    "coolant",
+    "machine",
+    "modbus",
+    "register",
+    "portugal",
+    "network",
+    "dimension",
+    "map",
+    "table",
+    "document",
+    "peacock",
+    "peacocks",
+    "country",
+    "countries",
+}
 
 
 def classify_query(query: str) -> QueryType:

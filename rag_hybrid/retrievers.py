@@ -9,6 +9,7 @@ from rag_hybrid.graph import search_tables
 from rag_hybrid.models import RetrievalItem, RetrievalResult, SearchChunkResult
 from rag_hybrid.qdrant_store import search_collection
 from rag_hybrid.query_classification import QueryType, classify_query
+from rag_hybrid.llm import FALLBACK_RESPONSE
 
 logger = get_logger()
 
@@ -80,7 +81,7 @@ def retrieve(query: str, sources: list[str] | None = None) -> RetrievalResult:
     table_retriever = TableRetriever()
 
     if query_type == QueryType.OUT_OF_SCOPE:
-        result.controlled_response = "This question is outside the uploaded document scope."
+        result.controlled_response = FALLBACK_RESPONSE
         result.retrieval_paths.append("none")
         return result
 
